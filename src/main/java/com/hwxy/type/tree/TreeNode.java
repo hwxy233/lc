@@ -1,17 +1,17 @@
 package com.hwxy.type.tree;
 
+import lombok.ToString;
+
 /**
  * 公共的treeNode节点
  */
+@ToString
 public class TreeNode {
     public int val;
     public TreeNode left;
     public TreeNode right;
 
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
+    public TreeNode(int val) {
         this.val = val;
     }
 
