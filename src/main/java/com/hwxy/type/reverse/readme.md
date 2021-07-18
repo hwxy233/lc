@@ -20,3 +20,10 @@
 [https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/][lc 17]
 
 [lc 17]: https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
+
+## 39. 组合总和
+[https://leetcode-cn.com/problems/combination-sum/][lc 39]
+
+[lc 39]: https://leetcode-cn.com/problems/combination-sum/
+
+## 40. 组合总和 II
