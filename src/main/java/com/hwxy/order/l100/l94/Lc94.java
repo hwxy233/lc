@@ -1,4 +1,4 @@
-package com.hwxy.order.l100.lc94;
+package com.hwxy.order.l100.l94;
 
 import com.hwxy.type.tree.TreeNode;
 
