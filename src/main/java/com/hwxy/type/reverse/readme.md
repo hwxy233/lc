@@ -29,6 +29,8 @@
 
 ## 40. 组合总和 II
 
+### 这道题有去重的方法
+
 [https://leetcode-cn.com/problems/combination-sum-ii/](https://leetcode-cn.com/problems/combination-sum-ii/)
 
 ## 131. 分割回文串
@@ -47,6 +49,16 @@
 
 [lc 78]: https://leetcode-cn.com/problems/subsets/
 
+## 90. 子集 II
+
+### 这道题有去重的方法
+
+[https://leetcode-cn.com/problems/subsets-ii/](https://leetcode-cn.com/problems/subsets-ii/)
+
 ## 491. 递增子序列
 
 [https://leetcode-cn.com/problems/increasing-subsequences/](https://leetcode-cn.com/problems/increasing-subsequences/)
+
+## 47. 全排列 II
+
+[https://leetcode-cn.com/problems/permutations-ii/](https://leetcode-cn.com/problems/permutations-ii/)

@@ -34,7 +34,7 @@ public class Lc40 {
             return result;
         }
         used = new boolean[candidates.length];
-        Arrays.fill(used, false);
+        // Arrays.fill(used, false);
         Arrays.sort(candidates);
         backtracking(candidates, 0, 0, target, 0);
         return result;
