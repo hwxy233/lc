@@ -28,9 +28,11 @@
 [lc 39]: https://leetcode-cn.com/problems/combination-sum/
 
 ## 40. 组合总和 II
+
 [https://leetcode-cn.com/problems/combination-sum-ii/](https://leetcode-cn.com/problems/combination-sum-ii/)
 
 ## 131. 分割回文串
+
 [https://leetcode-cn.com/problems/palindrome-partitioning/](https://leetcode-cn.com/problems/palindrome-partitioning/)
 
 ## 93. 复原ip地址
@@ -44,3 +46,7 @@
 [https://leetcode-cn.com/problems/subsets/][lc 78]
 
 [lc 78]: https://leetcode-cn.com/problems/subsets/
+
+## 491. 递增子序列
+
+[https://leetcode-cn.com/problems/increasing-subsequences/](https://leetcode-cn.com/problems/increasing-subsequences/)
