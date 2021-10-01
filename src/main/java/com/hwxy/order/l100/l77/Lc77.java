@@ -1,11 +1,8 @@
 package com.hwxy.order.l100.l77;
 
-import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Objects;
 
-import com.hwxy.type.tree.TreeNode;
 import lombok.Getter;
 
 @Getter
@@ -48,6 +45,9 @@ public class Lc77 {
             return;
         }
         // 横向,startIndex记录到哪了
+        // 剪枝(for循环选择的起始位置之后的元素个数 已经不足 我们需要的元素个数了，那么就没有必要搜索了):
+        // 还需要的元素数(k - path.size()) ,至多要从该起始位置 : n - (k - path.size()) + 1,+1是因为<=
+        // eg: n=4,k=2,最多从(4 - (2 - 0) + 1)=3,也就是i最大是3
         for (int i = startIndex; i <= n - (k - path.size()) + 1; i++) {
             path.add(i);
             // 纵向,递归了
