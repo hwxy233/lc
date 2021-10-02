@@ -47,6 +47,8 @@
 
 [https://leetcode-cn.com/problems/subsets/][lc 78]
 
+### 关于for循环从0开始还是从index开始,0开始不去重;index开始去重
+
 [lc 78]: https://leetcode-cn.com/problems/subsets/
 
 ## 90. 子集 II
