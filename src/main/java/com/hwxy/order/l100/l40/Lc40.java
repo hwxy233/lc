@@ -1,6 +1,9 @@
 package com.hwxy.order.l100.l40;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Objects;
 
 /**
  * 干嘛的
@@ -54,6 +57,8 @@ public class Lc40 {
             return;
         } else if (sum == target) {
             result.add(new LinkedList<>(tmp));
+            // 应当return
+            return;
         }
         for (int i = index; i < candidates.length && sum + candidates[i] <= target; i++) {
             // 这里是这样的假设数组为[1,1,2]编号为a,b,c;在a的1遍历时用到1,1时,used为[t,t,f]
