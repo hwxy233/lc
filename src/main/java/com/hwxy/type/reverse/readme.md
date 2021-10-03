@@ -5,6 +5,8 @@
 给定两个整数 n 和 k，返回 1 ... n 中所有可能的 k 个数的组合。  
 [https://leetcode-cn.com/problems/combinations/][lc 77]
 
+### for循环条件剪枝
+
 [lc 77]: https://leetcode-cn.com/problems/combinations/
 
 ## 216. 组合总和 III
@@ -13,6 +15,8 @@
 [https://leetcode-cn.com/problems/combination-sum-iii/][LC 216]
 
 [LC 216]: https://leetcode-cn.com/problems/combination-sum-iii/
+
+### for循环条件剪枝
 
 ## 17. 电话号码的字母组合
 
@@ -60,6 +64,8 @@
 ## 491. 递增子序列
 
 [https://leetcode-cn.com/problems/increasing-subsequences/](https://leetcode-cn.com/problems/increasing-subsequences/)
+
+### 这道题有去重的方法(与之前的方法不同)
 
 ## 47. 全排列 II
 
