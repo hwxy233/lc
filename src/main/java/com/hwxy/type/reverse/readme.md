@@ -67,6 +67,10 @@
 
 ### 这道题有去重的方法(与之前的方法不同)
 
+## 46. 全排列
+
+[https://leetcode-cn.com/problems/permutations/](https://leetcode-cn.com/problems/permutations/)
+
 ## 47. 全排列 II
 
 ### 这道题有去重的方法
