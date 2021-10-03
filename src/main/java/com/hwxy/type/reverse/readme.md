@@ -76,3 +76,17 @@
 ### 这道题有去重的方法
 
 [https://leetcode-cn.com/problems/permutations-ii/](https://leetcode-cn.com/problems/permutations-ii/)
+
+## 332. 重新安排行程(skip)
+
+[https://leetcode-cn.com/problems/reconstruct-itinerary/](https://leetcode-cn.com/problems/reconstruct-itinerary/)
+
+## 51. N 皇后
+
+[https://leetcode-cn.com/problems/n-queens/](https://leetcode-cn.com/problems/n-queens/)
+
+## 37. 解数独
+
+[https://leetcode-cn.com/problems/sudoku-solver/](https://leetcode-cn.com/problems/sudoku-solver/)
+
+### 二层递归
