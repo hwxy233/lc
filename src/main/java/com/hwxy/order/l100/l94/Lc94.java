@@ -1,9 +1,14 @@
 package com.hwxy.order.l100.l94;
 
+import java.util.LinkedList;
+import java.util.List;
+
 import com.hwxy.type.tree.TreeNode;
 
-import java.util.*;
-
+/**
+ * 二叉树中序列
+ * https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
+ */
 public class Lc94 {
 
     public static void main(String[] args) {
@@ -12,28 +17,20 @@ public class Lc94 {
         System.out.println(lc94.inorderTraversal(root));
     }
 
-    /**
-     * 中序遍历
-     *
-     * @param root
-     * @return
-     */
+    private LinkedList<Integer> res = new LinkedList<>();
+
     public List<Integer> inorderTraversal(TreeNode root) {
-        if (Objects.isNull(root)) {
-            return Collections.emptyList();
-        }
-        List<Integer> result = new LinkedList<>();
-        doInorderTraversal(root, result);
-        return result;
+        backtracking(root);
+        return res;
     }
 
-    private void doInorderTraversal(TreeNode root, List<Integer> result) {
-        if (Objects.isNull(root)) {
+    private void backtracking(TreeNode root) {
+        if (root == null) {
             return;
         }
-        doInorderTraversal(root.left, result);
-        // 在中间进行add操作
-        result.add(root.val);
-        doInorderTraversal(root.right, result);
+        // 中序遍历,左-根-右
+        backtracking(root.left);
+        res.add(root.val);
+        backtracking(root.right);
     }
 }

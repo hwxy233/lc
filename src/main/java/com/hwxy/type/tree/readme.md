@@ -1,10 +1,13 @@
 # 树相关的题目目录
 
-## 94
-给定一个二叉树的根节点 root ，返回它的 中序遍历。
+## 144. 二叉树的前序遍历
 
-## 95
-给定一个整数 n，生成所有由 1 ...n 为节点所组成的 二叉搜索树 。
+[https://leetcode-cn.com/problems/binary-tree-preorder-traversal/](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
 
-## 96
-给定一个整数 n，求以 1 ... n 为节点组成的二叉搜索树有多少种？
+## 145. 二叉树的后序遍历
+
+[https://leetcode-cn.com/problems/binary-tree-postorder-traversal/](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
+
+## 94. 二叉树的中序遍历
+
+[https://leetcode-cn.com/problems/binary-tree-inorder-traversal/](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
