@@ -2,6 +2,7 @@ package com.hwxy.order.l200.l144;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Stack;
 
 import com.hwxy.type.tree.TreeNode;
 
@@ -14,10 +15,17 @@ import com.hwxy.type.tree.TreeNode;
  **/
 public class Lc144 {
 
+    public static void main(String[] args) {
+        Lc144 lc144 = new Lc144();
+        System.out.println(lc144.preorderTraversal(
+                new TreeNode(1, null, new TreeNode(2, new TreeNode(3, null, null), null))));
+    }
+
     private LinkedList<Integer> res = new LinkedList<>();
 
     public List<Integer> preorderTraversal(TreeNode root) {
-        backtracking(root);
+        // backtracking(root);
+        stackTracking(root);
         return res;
     }
 
@@ -31,4 +39,29 @@ public class Lc144 {
         backtracking(root.left);
         backtracking(root.right);
     }
+
+    /**
+     * 非递归用栈,入栈顺序,根-右-左
+     * 
+     * @param treeNode
+     */
+    private void stackTracking(TreeNode treeNode) {
+        Stack<TreeNode> stack = new Stack<>();
+        // 前序,根-左-右
+        stack.push(treeNode);
+        while (!stack.isEmpty()) {
+            TreeNode root = stack.pop();
+            if (root == null) {
+                continue;
+            }
+            res.add(root.val);
+            if (root.right != null) {
+                stack.push(root.right);
+            }
+            if (root.left != null) {
+                stack.push(root.left);
+            }
+        }
+    }
+
 }
