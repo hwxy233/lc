@@ -2,6 +2,7 @@ package com.hwxy.order.l100.l94;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Stack;
 
 import com.hwxy.type.tree.TreeNode;
 
@@ -12,7 +13,7 @@ import com.hwxy.type.tree.TreeNode;
 public class Lc94 {
 
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(1, new TreeNode(2, null, new TreeNode(3, null, null)), null);
+        TreeNode root = new TreeNode(1, null, new TreeNode(2, new TreeNode(3, null, null), null));
         Lc94 lc94 = new Lc94();
         System.out.println(lc94.inorderTraversal(root));
     }
@@ -20,8 +21,25 @@ public class Lc94 {
     private LinkedList<Integer> res = new LinkedList<>();
 
     public List<Integer> inorderTraversal(TreeNode root) {
-        backtracking(root);
+        // backtracking(root);
+        stackTracking(root);
         return res;
+    }
+
+    private void stackTracking(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode cur = root;
+        // 先将根和左不断的入栈,如果到底了就开始弹栈并压右
+        while (cur != null || !stack.isEmpty()) {
+            if (cur != null) {
+                stack.push(cur);
+                cur = cur.left;
+            } else {
+                cur = stack.pop();
+                res.add(cur.val);
+                cur = cur.right;
+            }
+        }
     }
 
     private void backtracking(TreeNode root) {
