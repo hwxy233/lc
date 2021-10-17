@@ -19,4 +19,13 @@
 [https://leetcode-cn.com/problems/binary-tree-level-order-traversal/](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 
 ## 107. 二叉树的层序遍历 II
-[https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/]()
+
+[https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
+
+## 199. 二叉树的右视图
+
+[https://leetcode-cn.com/problems/binary-tree-right-side-view/](https://leetcode-cn.com/problems/binary-tree-right-side-view/)
+
+## 637. 二叉树的层平均值
+
+[https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)
