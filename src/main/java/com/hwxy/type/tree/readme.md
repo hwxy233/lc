@@ -20,33 +20,38 @@
 
 ## 101. 对称二叉树
 
-同时遍历
+相当于后序,同时遍历
 [https://leetcode-cn.com/problems/symmetric-tree/][101]
 
 ## 104. 二叉树的最大深度
 
+后序,左,右,最大+1
 [https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/][104]
 
 ## 110. 平衡二叉树
 
+高度:后序 / 深度:前序 / 根的深度==高度   
+后序,左,右,01
 [https://leetcode-cn.com/problems/balanced-binary-tree/][110]
 
 ## 111. 二叉树的最小深度
 
-和求最大的不同,要注意左右子树各空的情况
+后序,和求最大的不同(要到叶子节点),要注意左右子树各空的情况
 [https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/][111]
 
 ## 112. 路径总和
 
+前序,回溯
 [https://leetcode-cn.com/problems/path-sum/][112]
 
 ## 226. 翻转二叉树
 
+后序
 [https://leetcode-cn.com/problems/invert-binary-tree/][226]
 
 ## 257. 二叉树的所有路径
 
-回溯
+前序,回溯
 [https://leetcode-cn.com/problems/binary-tree-paths/][257]
 
 ## 107. 二叉树的层序遍历 II

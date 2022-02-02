@@ -17,6 +17,13 @@ public class Lc101 {
         return compare(root.left, root.right);
     }
 
+    /**
+     * 相当于后序
+     * 
+     * @param left
+     * @param right
+     * @return
+     */
     private boolean compare(TreeNode left, TreeNode right) {
         if (left == null && right != null) {
             return false;
