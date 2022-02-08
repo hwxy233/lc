@@ -31,3 +31,8 @@ n数之和就是n-1层循环
 不能这样做,不如target=-18,num[0]=-16,num[1]=-2,num[3]=0,num[4]=0  
 注意 > i+1  
 [https://leetcode-cn.com/problems/4sum/][18]
+
+## 1001. 网格照明
+
+二维坐标,可以用x - y表示正对角线,x + y表示反对角线  
+https://leetcode-cn.com/problems/grid-illumination/
