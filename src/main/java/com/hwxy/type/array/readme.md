@@ -24,3 +24,8 @@
 
 滑动窗口  
 https://leetcode-cn.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/
+
+## 1020. 飞地的数量
+
+dfs  
+https://leetcode-cn.com/problems/number-of-enclaves/
