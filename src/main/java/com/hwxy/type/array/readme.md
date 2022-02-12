@@ -19,3 +19,8 @@
 
 上行,右列,下行,左列都是左闭右开;offset缩圈;中间的元素计数赋值
 [https://leetcode-cn.com/problems/spiral-matrix-ii/][lc 59]
+
+## 1984. 学生分数的最小差值
+
+滑动窗口  
+https://leetcode-cn.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/

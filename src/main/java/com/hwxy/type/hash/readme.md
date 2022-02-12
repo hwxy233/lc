@@ -36,3 +36,8 @@ n数之和就是n-1层循环
 
 二维坐标,可以用x - y表示正对角线,x + y表示反对角线  
 https://leetcode-cn.com/problems/grid-illumination/
+
+## 2006. 差的绝对值为 K 的数对数目
+
+前到后的话可以之遍历一次  
+https://leetcode-cn.com/problems/count-number-of-pairs-with-absolute-difference-k/
