@@ -41,3 +41,8 @@ https://leetcode-cn.com/problems/grid-illumination/
 
 前到后的话可以之遍历一次  
 https://leetcode-cn.com/problems/count-number-of-pairs-with-absolute-difference-k/
+
+## 1189. “气球” 的最大数量
+
+可以尝试用数组  
+https://leetcode-cn.com/problems/maximum-number-of-balloons/
