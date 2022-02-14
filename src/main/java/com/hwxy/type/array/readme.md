@@ -29,3 +29,9 @@ https://leetcode-cn.com/problems/minimum-difference-between-highest-and-lowest-o
 
 dfs  
 https://leetcode-cn.com/problems/number-of-enclaves/
+
+## 540. 有序数组中的单一元素
+
+二分查找  
+观察下标的规律  
+https://leetcode-cn.com/problems/single-element-in-a-sorted-array/
