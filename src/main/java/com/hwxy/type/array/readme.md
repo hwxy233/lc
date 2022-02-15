@@ -35,3 +35,7 @@ https://leetcode-cn.com/problems/number-of-enclaves/
 二分查找  
 观察下标的规律  
 https://leetcode-cn.com/problems/single-element-in-a-sorted-array/
+
+## 1380. 矩阵中的幸运数
+
+https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/
