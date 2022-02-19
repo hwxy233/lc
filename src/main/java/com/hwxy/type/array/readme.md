@@ -39,3 +39,8 @@ https://leetcode-cn.com/problems/single-element-in-a-sorted-array/
 ## 1380. 矩阵中的幸运数
 
 https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/
+
+## 969. 煎饼排序
+
+每次将最大的翻转到最后  
+https://leetcode-cn.com/problems/pancake-sorting/
