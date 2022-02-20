@@ -44,3 +44,7 @@ https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/
 
 每次将最大的翻转到最后  
 https://leetcode-cn.com/problems/pancake-sorting/
+
+## 717. 1比特与2比特字符
+
+https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/
