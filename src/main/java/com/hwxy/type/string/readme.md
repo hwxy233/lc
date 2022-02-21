@@ -24,3 +24,7 @@ KMP
 
 KMP
 [https://leetcode-cn.com/problems/repeated-substring-pattern/][459]
+
+## 838. 推多米诺
+
+https://leetcode-cn.com/problems/push-dominoes/
