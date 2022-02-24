@@ -48,3 +48,8 @@ https://leetcode-cn.com/problems/pancake-sorting/
 ## 717. 1比特与2比特字符
 
 https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/
+
+## 1706. 球会落何处
+
+dfs  
+https://leetcode-cn.com/problems/where-will-the-ball-fall/
