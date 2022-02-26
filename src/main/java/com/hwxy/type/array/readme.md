@@ -53,3 +53,8 @@ https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/
 
 dfs  
 https://leetcode-cn.com/problems/where-will-the-ball-fall/
+
+## 2016. 增量元素之间的最大差值
+
+单层循环即可  
+https://leetcode-cn.com/problems/maximum-difference-between-increasing-elements/
