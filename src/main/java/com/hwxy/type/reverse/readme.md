@@ -98,3 +98,8 @@
 ### 要用double存总次数
 
 https://leetcode-cn.com/problems/knight-probability-in-chessboard/
+
+## 1601. 最多可达成的换楼请求数目
+
+dfs  
+https://leetcode-cn.com/problems/maximum-number-of-achievable-transfer-requests/submissions/

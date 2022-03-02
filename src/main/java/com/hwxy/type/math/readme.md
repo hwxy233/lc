@@ -8,3 +8,8 @@ https://leetcode-cn.com/problems/simplified-fractions/
 
 肯定是从第二个数开始加括号这样算出来的结果最大  
 https://leetcode-cn.com/problems/optimal-division/
+
+## 564. 寻找最近的回文数
+
+生成前一半-1到前一半+1的回文数,以及10的(len-1)次方-1,10的len次方+1  
+https://leetcode-cn.com/problems/find-the-closest-palindrome/
