@@ -13,3 +13,15 @@ https://leetcode-cn.com/problems/optimal-division/
 
 生成前一半-1到前一半+1的回文数,以及10的(len-1)次方-1,10的len次方+1  
 https://leetcode-cn.com/problems/find-the-closest-palindrome/
+
+## 258. 各位相加
+
+```java
+class Solution {
+    public int addDigits(int num) {
+        return (num - 1) % 9 + 1;
+    }
+}
+```
+
+https://leetcode-cn.com/problems/add-digits/
