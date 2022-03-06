@@ -58,3 +58,8 @@ https://leetcode-cn.com/problems/where-will-the-ball-fall/
 
 单层循环即可  
 https://leetcode-cn.com/problems/maximum-difference-between-increasing-elements/
+
+## 2104. 子数组范围和
+
+一个动态的指针相当于是  
+https://leetcode-cn.com/problems/sum-of-subarray-ranges/

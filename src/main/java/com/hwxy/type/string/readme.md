@@ -33,3 +33,8 @@ https://leetcode-cn.com/problems/push-dominoes/
 
 双指针，注意边界条件  
 https://leetcode-cn.com/problems/reverse-only-letters/
+
+## 521. 最长特殊序列 Ⅰ
+
+脑筋急转弯  
+https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/
