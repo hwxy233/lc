@@ -25,3 +25,8 @@ class Solution {
 ```
 
 https://leetcode-cn.com/problems/add-digits/
+
+## 504. 七进制数
+
+辗转相除法  
+https://leetcode-cn.com/problems/base-7/
