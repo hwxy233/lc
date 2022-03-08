@@ -63,3 +63,7 @@ https://leetcode-cn.com/problems/maximum-difference-between-increasing-elements/
 
 一个动态的指针相当于是  
 https://leetcode-cn.com/problems/sum-of-subarray-ranges/
+
+## 2055. 蜡烛之间的盘子
+
+https://leetcode-cn.com/problems/plates-between-candles/
