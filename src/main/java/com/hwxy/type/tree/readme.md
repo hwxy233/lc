@@ -132,3 +132,8 @@ https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/
 
 dfs,计算分数将删除节点后的三部分想乘机    
 https://leetcode-cn.com/problems/count-nodes-with-the-highest-score/
+
+## 590. N 叉树的后序遍历
+
+和二叉树的没有什么区别  
+https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/
