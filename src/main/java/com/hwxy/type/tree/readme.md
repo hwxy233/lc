@@ -127,3 +127,8 @@ https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/
 ## 116. 填充每个节点的下一个右侧节点指针
 
 [https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)
+
+## 2049. 统计最高分的节点数目
+
+dfs,计算分数将删除节点后的三部分想乘机    
+https://leetcode-cn.com/problems/count-nodes-with-the-highest-score/
