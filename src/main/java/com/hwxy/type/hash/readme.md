@@ -46,3 +46,9 @@ https://leetcode-cn.com/problems/count-number-of-pairs-with-absolute-difference-
 
 可以尝试用数组  
 https://leetcode-cn.com/problems/maximum-number-of-balloons/
+
+## 720. 词典中最长的单词
+
+排序然后用set记录有没有前缀,必须从第一个字母开始有才行
+
+https://leetcode-cn.com/problems/longest-word-in-dictionary/

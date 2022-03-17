@@ -67,3 +67,12 @@ https://leetcode-cn.com/problems/sum-of-subarray-ranges/
 ## 2055. 蜡烛之间的盘子
 
 https://leetcode-cn.com/problems/plates-between-candles/
+
+## 393. UTF-8 编码验证
+
+比较每段数字的范围  
+https://leetcode-cn.com/problems/utf-8-validation/
+
+## 599. 两个列表的最小索引总和
+
+https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/
