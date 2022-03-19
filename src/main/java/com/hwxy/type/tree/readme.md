@@ -137,3 +137,12 @@ https://leetcode-cn.com/problems/count-nodes-with-the-highest-score/
 
 和二叉树的没有什么区别  
 https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/
+
+## 606. 根据二叉树创建字符串
+
+深度优先搜索  
+如果当前节点只有右孩子，那我们在递归时，  
+需要先加上一层空的括号 ‘()’ 表示左孩子为空，  
+再对右孩子进行递归，并在结果外加上一层括号。
+
+https://leetcode-cn.com/problems/construct-string-from-binary-tree/
