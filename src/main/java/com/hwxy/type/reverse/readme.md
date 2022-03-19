@@ -103,3 +103,7 @@ https://leetcode-cn.com/problems/knight-probability-in-chessboard/
 
 dfs  
 https://leetcode-cn.com/problems/maximum-number-of-achievable-transfer-requests/submissions/
+
+## 2044. 统计按位或能得到最大值的子集数目
+
+https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/
