@@ -146,3 +146,13 @@ https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/
 再对右孩子进行递归，并在结果外加上一层括号。
 
 https://leetcode-cn.com/problems/construct-string-from-binary-tree/
+
+## 653. 两数之和 IV - 输入 BST
+
+2次dfs  
+https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/
+
+## 440. 字典序的第K小数字
+
+字典树  
+https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/

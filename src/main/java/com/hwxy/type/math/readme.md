@@ -30,3 +30,8 @@ https://leetcode-cn.com/problems/add-digits/
 
 辗转相除法  
 https://leetcode-cn.com/problems/base-7/
+
+## 2038. 如果相邻两个颜色均相同则删除当前颜色
+
+找出中间的A和B的数量然后比较  
+https://leetcode-cn.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/
