@@ -76,3 +76,9 @@ https://leetcode-cn.com/problems/utf-8-validation/
 ## 599. 两个列表的最小索引总和
 
 https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/
+
+## 661. 图片平滑器
+
+注意边界条件
+
+https://leetcode-cn.com/problems/image-smoother/
