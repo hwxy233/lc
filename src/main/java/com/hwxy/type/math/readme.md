@@ -35,3 +35,10 @@ https://leetcode-cn.com/problems/base-7/
 
 找出中间的A和B的数量然后比较  
 https://leetcode-cn.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/
+
+## 2028. 找出缺失的观测数据
+
+求出sumN,然后算出商和余数  
+余数个数的分配商+1  
+n-余数,分配商  
+https://leetcode-cn.com/problems/find-missing-observations/

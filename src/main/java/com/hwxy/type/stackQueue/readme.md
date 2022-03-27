@@ -34,3 +34,6 @@
 这里用的双指针,还可以dp和单调队列
 [https://leetcode-cn.com/problems/trapping-rain-water/][42]
 
+## 682. 棒球比赛
+
+https://leetcode-cn.com/problems/baseball-game/
