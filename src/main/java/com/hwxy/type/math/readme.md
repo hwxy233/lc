@@ -42,3 +42,10 @@ https://leetcode-cn.com/problems/remove-colored-pieces-if-both-neighbors-are-the
 余数个数的分配商+1  
 n-余数,分配商  
 https://leetcode-cn.com/problems/find-missing-observations/
+
+## 693. 交替位二进制数
+
+右移  
+亦或  
++1与  
+https://leetcode-cn.com/problems/binary-number-with-alternating-bits/
