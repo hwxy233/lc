@@ -52,3 +52,12 @@ https://leetcode-cn.com/problems/maximum-number-of-balloons/
 排序然后用set记录有没有前缀,必须从第一个字母开始有才行
 
 https://leetcode-cn.com/problems/longest-word-in-dictionary/
+
+## 954. 二倍数对数组
+
+我理解错了  
+这题就是找到(2/arr.length)对的组合使得后一个是前一个的2倍  
+排序,从小的开始凑对数,注意要绝对值排序,因为是*2的关系,比如[4,-2,2,-4] => [-2,2,-4,4]才行  
+更新数量,这里default个0防止大数*2没有更大的数
+
+https://leetcode-cn.com/problems/array-of-doubled-pairs/
