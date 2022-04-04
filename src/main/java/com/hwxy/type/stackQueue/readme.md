@@ -37,3 +37,8 @@
 ## 682. 棒球比赛
 
 https://leetcode-cn.com/problems/baseball-game/
+
+## 1606. 找到处理最多请求的服务器
+
+优先队列  
+https://leetcode-cn.com/problems/find-servers-that-handled-most-number-of-requests/

@@ -82,3 +82,13 @@ https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/
 注意边界条件
 
 https://leetcode-cn.com/problems/image-smoother/
+
+## 307. 区域和检索 - 数组可修改
+
+树状数组  
+https://leetcode-cn.com/problems/range-sum-query-mutable/
+
+## 2024. 考试的最大困扰度
+
+双指针  
+https://leetcode-cn.com/problems/maximize-the-confusion-of-an-exam/

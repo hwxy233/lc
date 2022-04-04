@@ -49,3 +49,7 @@ https://leetcode-cn.com/problems/find-missing-observations/
 亦或  
 +1与  
 https://leetcode-cn.com/problems/binary-number-with-alternating-bits/
+
+## 728. 自除数
+
+https://leetcode-cn.com/problems/self-dividing-numbers/
