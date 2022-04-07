@@ -38,3 +38,10 @@ https://leetcode-cn.com/problems/reverse-only-letters/
 
 脑筋急转弯  
 https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/
+
+## 796. 旋转字符串
+
+脑筋急转弯  
+将2个s拼到一起  
+如果包含goal则说明可以  
+https://leetcode-cn.com/problems/rotate-string/

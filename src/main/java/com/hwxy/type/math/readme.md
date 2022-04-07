@@ -53,3 +53,21 @@ https://leetcode-cn.com/problems/binary-number-with-alternating-bits/
 ## 728. 自除数
 
 https://leetcode-cn.com/problems/self-dividing-numbers/
+
+## 191. 位1的个数
+
+2种方法
+
+1. 不断和2的i次方做与运算,由地位到高位计算1的个数,结果不为0就+1
+2. lowbit,不断和(n-1)做与运算,该运算可以将地位由1变为0
+
+https://leetcode-cn.com/problems/number-of-1-bits/
+
+## 204. 计数质数
+
+从[2,根号n]判断求模  
+https://leetcode-cn.com/problems/count-primes/
+
+## 762. 二进制表示中质数个计算置位
+
+https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/
