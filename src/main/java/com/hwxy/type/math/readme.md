@@ -71,3 +71,8 @@ https://leetcode-cn.com/problems/count-primes/
 ## 762. 二进制表示中质数个计算置位
 
 https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/
+
+## 780. 到达终点
+
+反向运算  
+https://leetcode-cn.com/problems/reaching-points/
