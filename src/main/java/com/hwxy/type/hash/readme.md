@@ -61,3 +61,10 @@ https://leetcode-cn.com/problems/longest-word-in-dictionary/
 更新数量,这里default个0防止大数*2没有更大的数
 
 https://leetcode-cn.com/problems/array-of-doubled-pairs/
+
+## 804. 唯一摩尔斯密码词
+
+直接用个map记录映射  
+然后找个set去重  
+可以map替换为数组  
+https://leetcode-cn.com/problems/unique-morse-code-words
