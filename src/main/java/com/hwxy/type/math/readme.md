@@ -76,3 +76,13 @@ https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representati
 
 反向运算  
 https://leetcode-cn.com/problems/reaching-points/
+
+## 357. 统计各位数字都不同的数字个数
+
+排列组合问题  
+C9,1 * A9,(n-1)  
+因为在n>1的情况下,第一位为[1,9]这9种  
+还剩下(n-1)个位子可以选,这是个排列问题所以是A9,(n-1)  
+每种位数情况累加  
+然后结果还需要加上n=1的10种可能  
+https://leetcode-cn.com/problems/count-numbers-with-unique-digits/
