@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * 干嘛的
+ * 385. 迷你语法分析器
  * https://leetcode-cn.com/problems/mini-parser/
  * 
  * @author hwxy
@@ -16,12 +16,20 @@ import java.util.Stack;
  **/
 public class Lc385 {
     public static void main(String[] args) {
-        System.out.println(new Lc385().deserialize("[123,[456,[789]]]"));
+        System.out.println(new Lc385().deserialize("324"));
+        System.out.println(new Lc385().deserialize("[123,[111],[456,[789]]]"));
     }
 
     private char[] cs;
     private int i;
 
+    /**
+     * 用栈不过不是对输入的字符串使用而是对结果使用
+     * 为了维持父子关系
+     * 
+     * @param s
+     * @return
+     */
     public NestedInteger deserialize(String s) {
         if (s == null || s.isEmpty()) {
             return null;
@@ -40,7 +48,7 @@ public class Lc385 {
                     nestedIntegerStack.add(fa);
                 }
                 nestedIntegerStack.add(nestedInteger);
-            } else if (cs[i] == '-' || (cs[i] >= '0' && cs[i] <= 9)) {
+            } else if (cs[i] == '-' || (cs[i] >= '0' && cs[i] <= '9')) {
                 int num = getNum();
                 if (nestedIntegerStack.isEmpty()) {
                     return new NestedInteger(num);
@@ -54,18 +62,27 @@ public class Lc385 {
                 res = nestedIntegerStack.pop();
             }
         }
+        while (!nestedIntegerStack.isEmpty()) {
+            res = nestedIntegerStack.pop();
+        }
         return res;
     }
 
     private int getNum() {
         StringBuilder sb = new StringBuilder();
-        while (cs[i] != ',' && cs[i] != ']') {
+        // 注意小于要先写
+        while (i < cs.length && cs[i] != ',') {
             if (cs[i] == '[') {
                 i++;
                 continue;
             }
+            if (cs[i] == ']') {
+                break;
+            }
             sb.append(cs[i++]);
         }
+        // 回退,防止调用处的i++破坏]出栈
+        i--;
         return Integer.parseInt(sb.toString());
     }
 

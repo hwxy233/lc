@@ -42,3 +42,9 @@ https://leetcode-cn.com/problems/baseball-game/
 
 优先队列  
 https://leetcode-cn.com/problems/find-servers-that-handled-most-number-of-requests/
+
+## 385. 迷你语法分析器
+
+用栈不过不是对输入的字符串使用而是对结果使用  
+为了维持父子关系  
+https://leetcode-cn.com/problems/mini-parser/

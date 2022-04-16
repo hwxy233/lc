@@ -86,3 +86,9 @@ C9,1 * A9,(n-1)
 每种位数情况累加  
 然后结果还需要加上n=1的10种可能  
 https://leetcode-cn.com/problems/count-numbers-with-unique-digits/
+
+## 479. 最大回文数乘积
+
+n位数*n位数的结果为2n位数,因为是回文数所以只要枚举左半边即可  
+注意溢出  
+https://leetcode-cn.com/problems/largest-palindrome-product/
