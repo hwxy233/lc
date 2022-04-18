@@ -107,3 +107,10 @@ https://leetcode-cn.com/problems/maximum-number-of-achievable-transfer-requests/
 ## 2044. 统计按位或能得到最大值的子集数目
 
 https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/
+
+## 386. 字典序排数
+
+深度优先搜索  
+从[1,9]每个都dfs一遍  
+在dfs里对参数index进行[0,9]的index*=10 + i的dfs  
+https://leetcode-cn.com/problems/lexicographical-numbers/
