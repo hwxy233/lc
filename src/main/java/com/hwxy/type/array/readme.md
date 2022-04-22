@@ -92,3 +92,8 @@ https://leetcode-cn.com/problems/range-sum-query-mutable/
 
 双指针  
 https://leetcode-cn.com/problems/maximize-the-confusion-of-an-exam/
+
+## 396. 旋转函数
+
+公式递推  
+https://leetcode-cn.com/problems/rotate-function/
