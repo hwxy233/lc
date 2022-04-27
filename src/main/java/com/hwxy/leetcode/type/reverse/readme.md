@@ -114,3 +114,10 @@ https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/
 从[1,9]每个都dfs一遍  
 在dfs里对参数index进行[0,9]的index*=10 + i的dfs  
 https://leetcode-cn.com/problems/lexicographical-numbers/
+
+## 417. 太平洋大西洋水流问题
+
+dfs从pacific的西和北找到所有能到pacific的  
+同理从atlantic的东和南找到所有能到atlantic的  
+如果某个下标都能到则就是结果  
+https://leetcode-cn.com/problems/pacific-atlantic-water-flow/
