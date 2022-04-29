@@ -121,3 +121,12 @@ dfs从pacific的西和北找到所有能到pacific的
 同理从atlantic的东和南找到所有能到atlantic的  
 如果某个下标都能到则就是结果  
 https://leetcode-cn.com/problems/pacific-atlantic-water-flow/
+
+## 427. 建立四叉树
+
+构造4叉树  
+检查x,y的范围如果相差是1的话说明到叶子了  
+检查范围内的是否相同  
+如果相同说明那个是null  
+否则递归构造子树(每次注意范围的问题)  
+https://leetcode-cn.com/problems/construct-quad-tree/
