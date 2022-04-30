@@ -92,3 +92,8 @@ https://leetcode-cn.com/problems/count-numbers-with-unique-digits/
 n位数*n位数的结果为2n位数,因为是回文数所以只要枚举左半边即可  
 注意溢出  
 https://leetcode-cn.com/problems/largest-palindrome-product/
+
+## 908. 最小差值 I
+
+排序后找到最大值和最小值,然后从最大值逐步减少到k;从最小值逐步增加k  
+https://leetcode-cn.com/problems/smallest-range-i/
