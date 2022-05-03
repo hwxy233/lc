@@ -21,3 +21,9 @@ https://leetcode-cn.com/problems/two-sum/
 
 HashMap的key先进行排序  
 https://leetcode-cn.com/problems/group-anagrams/
+
+### 347. 前 K 个高频元素
+
+1. HashMap + value排序
+2. HashMap + PriorityQueue当做堆  
+   https://leetcode-cn.com/problems/top-k-frequent-elements/
