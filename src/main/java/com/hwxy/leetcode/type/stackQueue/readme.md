@@ -48,3 +48,8 @@ https://leetcode-cn.com/problems/find-servers-that-handled-most-number-of-reques
 用栈不过不是对输入的字符串使用而是对结果使用  
 为了维持父子关系  
 https://leetcode-cn.com/problems/mini-parser/
+
+## 1823. 找出游戏的获胜者
+
+使用队列进行循环模拟  
+https://leetcode-cn.com/problems/find-the-winner-of-the-circular-game/
