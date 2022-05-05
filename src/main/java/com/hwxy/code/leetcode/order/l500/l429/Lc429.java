@@ -6,7 +6,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import com.hwxy.index.leetcode.everyday.tree.muti.Node;
 
 /**
  * 429. N 叉树的层序遍历
@@ -46,5 +45,22 @@ public class Lc429 {
             re.add(levelRe);
         }
         return re;
+    }
+
+
+    static class Node {
+        public int val;
+        public List<Node> children;
+
+        public Node() {}
+
+        public Node(int _val) {
+            val = _val;
+        }
+
+        public Node(int _val, List<Node> _children) {
+            val = _val;
+            children = _children;
+        }
     }
 }

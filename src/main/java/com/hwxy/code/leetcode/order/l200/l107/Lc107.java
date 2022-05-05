@@ -4,7 +4,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.hwxy.index.leetcode.everyday.tree.TreeNode;
+import com.hwxy.ds.TreeNode;
 
 /**
  * 反向遍历二叉树

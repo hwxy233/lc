@@ -3,7 +3,7 @@ package com.hwxy.code.leetcode.order.l600.l501;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.hwxy.index.leetcode.everyday.tree.TreeNode;
+import com.hwxy.ds.TreeNode;
 
 /**
  * 501. 二叉搜索树中的众数

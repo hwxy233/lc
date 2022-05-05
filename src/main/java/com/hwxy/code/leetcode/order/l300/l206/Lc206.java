@@ -1,6 +1,6 @@
 package com.hwxy.code.leetcode.order.l300.l206;
 
-import com.hwxy.index.leetcode.everyday.linkedlist.ListNode;
+import com.hwxy.ds.ListNode;
 
 /**
  * 206. 反转链表

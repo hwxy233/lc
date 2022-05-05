@@ -1,10 +1,11 @@
-package com.hwxy.index.leetcode.everyday.linkedlist;
+package com.hwxy.ds;
+
 
 /**
  * 干嘛的
  *
  * @author hwxy
- * @date 2022/01/30
+ * @date 2022/05/05
  **/
 public class ListNode {
     public int val;
@@ -16,9 +17,8 @@ public class ListNode {
         this.val = val;
     }
 
-    public ListNode(int val, ListNode next) {
+    ListNode(int val, ListNode next) {
         this.val = val;
         this.next = next;
     }
-
 }

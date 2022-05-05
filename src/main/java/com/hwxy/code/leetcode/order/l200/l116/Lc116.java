@@ -4,7 +4,7 @@ package com.hwxy.code.leetcode.order.l200.l116;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.hwxy.index.leetcode.everyday.tree.next.Node;
+import com.hwxy.ds.Node;
 
 /**
  * 116. 填充每个节点的下一个右侧节点指针

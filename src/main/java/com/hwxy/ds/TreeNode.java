@@ -1,15 +1,18 @@
-package com.hwxy.index.leetcode.everyday.tree;
+package com.hwxy.ds;
 
-import lombok.ToString;
 
 /**
- * 公共的treeNode节点
- */
-@ToString
+ * 干嘛的
+ *
+ * @author hwxy
+ * @date 2022/05/05
+ **/
 public class TreeNode {
     public int val;
     public TreeNode left;
     public TreeNode right;
+
+    public TreeNode() {}
 
     public TreeNode(int val) {
         this.val = val;

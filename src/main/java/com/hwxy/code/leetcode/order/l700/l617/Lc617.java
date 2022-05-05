@@ -1,6 +1,6 @@
 package com.hwxy.code.leetcode.order.l700.l617;
 
-import com.hwxy.index.leetcode.everyday.tree.TreeNode;
+import com.hwxy.ds.TreeNode;
 
 /**
  * 617. 合并二叉树

@@ -1,6 +1,6 @@
 package com.hwxy.code.leetcode.order.l200.l142;
 
-import com.hwxy.index.leetcode.everyday.linkedlist.ListNode;
+import com.hwxy.ds.ListNode;
 
 /**
  * 142. 环形链表 II

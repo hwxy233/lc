@@ -1,10 +1,10 @@
-package com.hwxy.index.leetcode.everyday.tree.next;
+package com.hwxy.ds;
 
 /**
- * next的node
+ * 干嘛的
  *
  * @author hwxy
- * @date 2021/11/20
+ * @date 2022/05/05
  **/
 public class Node {
     public int val;
@@ -24,4 +24,4 @@ public class Node {
         right = _right;
         next = _next;
     }
-}
+};

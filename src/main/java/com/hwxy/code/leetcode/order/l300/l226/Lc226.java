@@ -4,7 +4,7 @@ package com.hwxy.code.leetcode.order.l300.l226;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.hwxy.index.leetcode.everyday.tree.TreeNode;
+import com.hwxy.ds.TreeNode;
 
 /**
  * 226. 翻转二叉树

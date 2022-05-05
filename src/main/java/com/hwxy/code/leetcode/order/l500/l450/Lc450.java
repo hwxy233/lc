@@ -1,6 +1,5 @@
 package com.hwxy.code.leetcode.order.l500.l450;
 
-import com.hwxy.index.leetcode.everyday.tree.TreeNode;
 
 /**
  * 450. 删除二叉搜索树中的节点
@@ -61,5 +60,23 @@ public class Lc450 {
             root.right = delete(root.right, key);
         }
         return root;
+    }
+
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {}
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }

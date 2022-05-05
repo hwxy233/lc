@@ -1,6 +1,6 @@
 package com.hwxy.code.leetcode.order.l700.l700;
 
-import com.hwxy.index.leetcode.everyday.tree.TreeNode;
+import com.hwxy.ds.TreeNode;
 
 /**
  * 700. 二叉搜索树中的搜索

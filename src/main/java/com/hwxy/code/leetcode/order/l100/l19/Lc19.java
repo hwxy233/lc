@@ -1,6 +1,5 @@
 package com.hwxy.code.leetcode.order.l100.l19;
 
-import com.hwxy.index.leetcode.everyday.linkedlist.ListNode;
 
 /**
  * 19. 删除链表的倒数第 N 个结点
@@ -28,5 +27,21 @@ public class Lc19 {
         }
         slow.next = slow.next.next;
         return virtualNode.next;
+    }
+
+    static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {}
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
     }
 }

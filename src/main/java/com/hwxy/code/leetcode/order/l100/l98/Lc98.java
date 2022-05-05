@@ -1,6 +1,7 @@
 package com.hwxy.code.leetcode.order.l100.l98;
 
-import com.hwxy.index.leetcode.everyday.tree.TreeNode;
+
+import com.hwxy.ds.TreeNode;
 
 /**
  * 98. 验证二叉搜索树

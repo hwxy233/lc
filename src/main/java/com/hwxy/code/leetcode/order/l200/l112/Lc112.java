@@ -1,6 +1,6 @@
 package com.hwxy.code.leetcode.order.l200.l112;
 
-import com.hwxy.index.leetcode.everyday.tree.TreeNode;
+import com.hwxy.ds.TreeNode;
 
 /**
  * 112. 路径总和

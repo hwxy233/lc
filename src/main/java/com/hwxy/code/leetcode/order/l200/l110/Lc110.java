@@ -1,6 +1,6 @@
 package com.hwxy.code.leetcode.order.l200.l110;
 
-import com.hwxy.index.leetcode.everyday.tree.TreeNode;
+import com.hwxy.ds.TreeNode;
 
 /**
  * 110. 平衡二叉树

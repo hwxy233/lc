@@ -3,7 +3,7 @@ package com.hwxy.code.leetcode.order.l600.l530;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.hwxy.index.leetcode.everyday.tree.TreeNode;
+import com.hwxy.ds.TreeNode;
 
 /**
  * 530. 二叉搜索树的最小绝对差

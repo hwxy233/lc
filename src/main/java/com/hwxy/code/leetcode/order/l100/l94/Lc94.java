@@ -4,7 +4,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
-import com.hwxy.index.leetcode.everyday.tree.TreeNode;
 
 /**
  * 二叉树中序列
@@ -50,5 +49,23 @@ public class Lc94 {
         backtracking(root.left);
         res.add(root.val);
         backtracking(root.right);
+    }
+
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {}
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }

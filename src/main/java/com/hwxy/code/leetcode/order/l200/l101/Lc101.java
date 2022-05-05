@@ -1,6 +1,6 @@
 package com.hwxy.code.leetcode.order.l200.l101;
 
-import com.hwxy.index.leetcode.everyday.tree.TreeNode;
+import com.hwxy.ds.TreeNode;
 
 /**
  * 101. 对称二叉树
