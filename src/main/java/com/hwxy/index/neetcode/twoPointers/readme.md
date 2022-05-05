@@ -14,3 +14,18 @@
 </details>
 
 [https://leetcode-cn.com/problems/valid-palindrome/](https://leetcode-cn.com/problems/valid-palindrome/)
+
+## 2. Medium
+
+### 15. 三数之和
+
+<details>
+<summary>Tips</summary>
+
+1. 先排序
+2. 然后双指针用nums[i]的负数当做sum去找2个数的和是否为sum
+3. 注意相邻相同元素去重,可以在向结果集存入结果之后进行去重
+
+</details>
+
+[https://leetcode-cn.com/problems/3sum/solution/san-shu-zhi-he-by-leetcode-solution/](https://leetcode-cn.com/problems/3sum/solution/san-shu-zhi-he-by-leetcode-solution/)
