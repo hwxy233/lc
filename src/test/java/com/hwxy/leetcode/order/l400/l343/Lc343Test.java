@@ -1,5 +1,6 @@
 package com.hwxy.leetcode.order.l400.l343;
 
+import com.hwxy.code.leetcode.order.l400.l343.Lc343;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

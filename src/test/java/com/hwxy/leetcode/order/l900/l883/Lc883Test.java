@@ -3,6 +3,7 @@ package com.hwxy.leetcode.order.l900.l883;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.hwxy.code.leetcode.order.l900.l883.Lc883;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

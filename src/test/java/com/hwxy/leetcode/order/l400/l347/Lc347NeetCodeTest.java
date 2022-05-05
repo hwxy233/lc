@@ -1,5 +1,6 @@
 package com.hwxy.leetcode.order.l400.l347;
 
+import com.hwxy.code.leetcode.order.l400.l347.Lc347NeetCode;
 import com.hwxy.utils.JsonUtil;
 import org.junit.Test;
 

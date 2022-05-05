@@ -1,6 +1,6 @@
 package com.hwxy.order.l400.l386;
 
-import com.hwxy.leetcode.order.l400.l386.Lc386;
+import com.hwxy.code.leetcode.order.l400.l386.Lc386;
 import org.junit.Test;
 
 import java.util.Arrays;

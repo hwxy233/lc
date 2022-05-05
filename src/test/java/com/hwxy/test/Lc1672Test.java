@@ -1,6 +1,6 @@
 package com.hwxy.test;
 
-import com.hwxy.leetcode.order.l1700.l1672.Lc1672;
+import com.hwxy.code.leetcode.order.l1700.l1672.Lc1672;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

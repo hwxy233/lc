@@ -1,9 +1,8 @@
 package com.hwxy.leetcode.order.l500.l427;
 
+import com.hwxy.code.leetcode.order.l500.l427.Lc427;
 import com.hwxy.utils.JsonUtil;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class Lc427Test {
 

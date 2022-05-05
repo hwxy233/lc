@@ -1,6 +1,6 @@
 package com.hwxy.order.l900.l824;
 
-import com.hwxy.leetcode.order.l900.l824.Lc824;
+import com.hwxy.code.leetcode.order.l900.l824.Lc824;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
