@@ -11,5 +11,6 @@ public class Lc125Test {
         Lc125 lc125 = new Lc125();
         assertTrue(lc125.isPalindrome("A man, a plan, a canal: Panama"));
         assertFalse(lc125.isPalindrome("race a car"));
+        assertTrue(lc125.isPalindrome(".,"));
     }
 }

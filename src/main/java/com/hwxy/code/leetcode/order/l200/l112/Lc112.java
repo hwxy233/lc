@@ -1,6 +1,6 @@
 package com.hwxy.code.leetcode.order.l200.l112;
 
-import com.hwxy.ds.TreeNode;
+import com.hwxy.code.ds.TreeNode;
 
 /**
  * 112. 路径总和

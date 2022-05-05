@@ -1,6 +1,6 @@
 package com.hwxy.code.leetcode.order.l200.l105;
 
-import com.hwxy.ds.TreeNode;
+import com.hwxy.code.ds.TreeNode;
 
 /**
  * 105. 从前序与中序遍历序列构造二叉树

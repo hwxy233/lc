@@ -1,6 +1,6 @@
 package com.hwxy.code.leetcode.order.l800.l701;
 
-import com.hwxy.ds.TreeNode;
+import com.hwxy.code.ds.TreeNode;
 
 /**
  * 701. 二叉搜索树中的插入操作

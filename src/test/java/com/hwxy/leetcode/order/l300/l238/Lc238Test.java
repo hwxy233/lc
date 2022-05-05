@@ -1,7 +1,7 @@
 package com.hwxy.leetcode.order.l300.l238;
 
 import com.hwxy.code.leetcode.order.l300.l238.Lc238;
-import com.hwxy.utils.JsonUtil;
+import com.hwxy.code.utils.JsonUtil;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -1,6 +1,6 @@
 package com.hwxy.code.leetcode.order.l300.l236;
 
-import com.hwxy.ds.TreeNode;
+import com.hwxy.code.ds.TreeNode;
 
 /**
  * 236. 二叉树的最近公共祖先

@@ -1,4 +1,4 @@
-package com.hwxy.ds;
+package com.hwxy.code.ds;
 
 /**
  * 干嘛的

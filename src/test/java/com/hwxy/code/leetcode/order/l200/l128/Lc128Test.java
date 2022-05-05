@@ -1,6 +1,6 @@
 package com.hwxy.code.leetcode.order.l200.l128;
 
-import com.hwxy.utils.JsonUtil;
+import com.hwxy.code.utils.JsonUtil;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

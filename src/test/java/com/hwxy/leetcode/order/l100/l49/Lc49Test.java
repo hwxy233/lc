@@ -2,7 +2,7 @@ package com.hwxy.leetcode.order.l100.l49;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.hwxy.code.leetcode.order.l100.l49.Lc49;
-import com.hwxy.utils.JsonUtil;
+import com.hwxy.code.utils.JsonUtil;
 import org.junit.Test;
 
 import java.util.List;

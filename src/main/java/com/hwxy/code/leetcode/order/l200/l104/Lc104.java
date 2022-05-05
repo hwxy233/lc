@@ -1,6 +1,6 @@
 package com.hwxy.code.leetcode.order.l200.l104;
 
-import com.hwxy.ds.TreeNode;
+import com.hwxy.code.ds.TreeNode;
 
 /**
  * 104. 二叉树的最大深度
