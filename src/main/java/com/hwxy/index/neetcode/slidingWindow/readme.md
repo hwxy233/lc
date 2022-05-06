@@ -27,3 +27,17 @@
 </details>
 
 [https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
+
+### 424. 替换后的最长重复字符
+
+<details>
+<summary>Tips</summary>
+
+1. 每次右移时记录该字符出现的次数和最多出现字符放入次数进行比较
+2. 如果发现此时窗口长度-最大字符长度>k的话说明需要滑动窗口,减少最左字符的次数
+3. 最终的结果就是窗口的长度
+4. 窗口增大和最多字符的次数一定是同时增长的,如果窗口长度不变(平移)那么最多字符的次数一定不变
+
+</details>
+
+[https://leetcode-cn.com/problems/longest-repeating-character-replacement/](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)
