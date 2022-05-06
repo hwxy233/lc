@@ -41,3 +41,18 @@
 </details>
 
 [https://leetcode-cn.com/problems/longest-repeating-character-replacement/](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)
+
+## 3. Hard
+
+### 76. 最小覆盖子串
+
+<details>
+<summary>Tips</summary>
+
+1. 不断向右移动记录字符直到满足次数
+2. 这是更新结果并开始不断左移
+3. 直到不满足次数停止左移开始右移重复1,2
+
+</details>
+
+[https://leetcode-cn.com/problems/minimum-window-substring/](https://leetcode-cn.com/problems/minimum-window-substring/)
