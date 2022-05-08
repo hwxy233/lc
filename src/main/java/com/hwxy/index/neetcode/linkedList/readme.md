@@ -23,3 +23,14 @@
 </details>
 
 [https://leetcode-cn.com/problems/merge-two-sorted-lists/](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+
+### 143. 重排链表
+
+<details>
+<summary>Tips</summary>
+
+1. 用一个列表可以根据索引查找
+
+</details>
+
+[https://leetcode-cn.com/problems/reorder-list/](https://leetcode-cn.com/problems/reorder-list/)
