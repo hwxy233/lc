@@ -1,6 +1,5 @@
 package com.hwxy.code.leetcode.order.l1000.l937;
 
-import com.hwxy.code.leetcode.order.l1000.l937.Lc937;
 import com.hwxy.code.utils.JsonUtil;
 import org.junit.Test;
 
