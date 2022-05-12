@@ -1,5 +1,18 @@
 # ArraysAndHashing
 
+## 1. Easy
+
+<details>
+<summary>Tips</summary>
+
+1. 竖着遍历即可
+
+</details>
+
+### 944. 删列造序
+
+https://leetcode.cn/problems/delete-columns-to-make-sorted/
+
 ## 2.Medium
 
 ### 442. 数组中重复的数据
