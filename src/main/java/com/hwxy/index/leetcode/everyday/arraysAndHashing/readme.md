@@ -28,3 +28,17 @@ https://leetcode.cn/problems/delete-columns-to-make-sorted/
 </details>
 
 [https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/)
+
+### 6064. 不含特殊楼层的最大连续楼层数
+
+<details>
+<summary>Tips</summary>
+
+1. 直接遍历specials即可
+2. 每次计算差值时记得-1
+3. 遍历完再计算一遍
+
+</details>
+
+
+[https://leetcode.cn/contest/weekly-contest-293/problems/maximum-consecutive-floors-without-special-floors/](https://leetcode.cn/contest/weekly-contest-293/problems/maximum-consecutive-floors-without-special-floors/)
