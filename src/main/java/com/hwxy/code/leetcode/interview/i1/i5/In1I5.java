@@ -1,4 +1,4 @@
-package com.hwxy.code.leetcode.interview.i100.i5;
+package com.hwxy.code.leetcode.interview.i1.i5;
 
 /**
  * 面试题 01.05. 一次编辑
@@ -7,7 +7,7 @@ package com.hwxy.code.leetcode.interview.i100.i5;
  * @author hwxy
  * @date 2022/05/13
  **/
-public class In5 {
+public class In1I5 {
     public boolean oneEditAway(String first, String second) {
         if (first == null || second == null) {
             return false;

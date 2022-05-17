@@ -2,6 +2,8 @@
 
 ## 1. Easy
 
+### 944. 删列造序
+
 <details>
 <summary>Tips</summary>
 
@@ -9,9 +11,19 @@
 
 </details>
 
-### 944. 删列造序
+[https://leetcode.cn/problems/delete-columns-to-make-sorted/](https://leetcode.cn/problems/delete-columns-to-make-sorted/)
 
-https://leetcode.cn/problems/delete-columns-to-make-sorted/
+### 953. 验证外星语词典
+
+<details>
+<summary>Tips</summary>
+
+1. 记得每次比较后根据长度再进行一次额外判断
+
+</details>
+
+[https://leetcode.cn/problems/verifying-an-alien-dictionary/](https://leetcode.cn/problems/verifying-an-alien-dictionary/)
+
 
 ## 2.Medium
 
@@ -42,3 +54,16 @@ https://leetcode.cn/problems/delete-columns-to-make-sorted/
 
 
 [https://leetcode.cn/contest/weekly-contest-293/problems/maximum-consecutive-floors-without-special-floors/](https://leetcode.cn/contest/weekly-contest-293/problems/maximum-consecutive-floors-without-special-floors/)
+
+
+### 面试题 01.05. 一次编辑
+
+<details>
+<summary>Tips</summary>
+
+1. 长度最多相差一个
+2. 不相同就最多多进一个 || 补一个
+
+</details>
+
+[https://leetcode.cn/problems/one-away-lcci/](https://leetcode.cn/problems/one-away-lcci/)
