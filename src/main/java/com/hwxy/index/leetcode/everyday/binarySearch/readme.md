@@ -28,6 +28,18 @@
 
 [https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/)
 
+### 436. 寻找右区间
+
+<details>
+<summary>Tips</summary>
+
+1. 对每个右区间二分搜索,找出>=有区间的最小的做区间,可能没有做区间
+2. 可以用二维数组排序代替HashMap和List的存储
+
+</details>
+
+[https://leetcode.cn/problems/find-right-interval/](https://leetcode.cn/problems/find-right-interval/)
+
 ## 3. Hard
 
 ### 668. 乘法表中第k小的数
