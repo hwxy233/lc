@@ -13,6 +13,17 @@
 
 [https://leetcode.cn/problems/delete-columns-to-make-sorted/](https://leetcode.cn/problems/delete-columns-to-make-sorted/)
 
+### 961. 在长度 2N 的数组中找出重复 N 次的元素
+
+<details>
+<summary>Tips</summary>
+
+1. 用Set记录出现的只要重复了就是答案
+
+</details>
+
+[https://leetcode.cn/problems/n-repeated-element-in-size-2n-array/](https://leetcode.cn/problems/n-repeated-element-in-size-2n-array/)
+
 ### 953. 验证外星语词典
 
 <details>
@@ -23,7 +34,6 @@
 </details>
 
 [https://leetcode.cn/problems/verifying-an-alien-dictionary/](https://leetcode.cn/problems/verifying-an-alien-dictionary/)
-
 
 ## 2.Medium
 
@@ -54,7 +64,6 @@
 
 
 [https://leetcode.cn/contest/weekly-contest-293/problems/maximum-consecutive-floors-without-special-floors/](https://leetcode.cn/contest/weekly-contest-293/problems/maximum-consecutive-floors-without-special-floors/)
-
 
 ### 面试题 01.05. 一次编辑
 
