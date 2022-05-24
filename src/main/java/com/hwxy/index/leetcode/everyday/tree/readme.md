@@ -1,5 +1,19 @@
 # Tree
 
+## 1. Easy
+
+### 965. 单值二叉树
+
+<details>
+<summary>Tips</summary>
+
+1. 先序遍历
+2. 先将根和左右子树比较,然后dfs左和右
+
+</details>
+
+[https://leetcode.cn/problems/univalued-binary-tree/](https://leetcode.cn/problems/univalued-binary-tree/)
+
 ## 2. Medium
 
 ### 449. 序列化和反序列化二叉搜索树
