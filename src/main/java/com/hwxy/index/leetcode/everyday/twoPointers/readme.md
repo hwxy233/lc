@@ -30,3 +30,15 @@
 
 [https://leetcode.cn/problems/one-away-lcci/](https://leetcode.cn/problems/one-away-lcci/)
 
+### 面试题 17.11. 单词距离
+
+<details>
+<summary>Tips</summary>
+
+1. 同方向的双指针
+2. 每次和左边最后的下标比较即可
+
+</details>
+
+
+[https://leetcode.cn/problems/find-closest-lcci/](https://leetcode.cn/problems/find-closest-lcci/)

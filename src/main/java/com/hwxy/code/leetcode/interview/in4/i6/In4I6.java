@@ -1,4 +1,4 @@
-package com.hwxy.code.leetcode.interview.i4.i6;
+package com.hwxy.code.leetcode.interview.in4.i6;
 
 import java.util.ArrayList;
 import java.util.List;

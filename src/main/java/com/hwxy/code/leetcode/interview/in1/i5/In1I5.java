@@ -1,4 +1,4 @@
-package com.hwxy.code.leetcode.interview.i1.i5;
+package com.hwxy.code.leetcode.interview.in1.i5;
 
 /**
  * 面试题 01.05. 一次编辑

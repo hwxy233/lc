@@ -1,4 +1,4 @@
-package com.hwxy.code.leetcode.interview.i1.i5;
+package com.hwxy.code.leetcode.interview.in1.i5;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
