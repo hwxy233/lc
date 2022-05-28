@@ -35,6 +35,18 @@
 
 [https://leetcode-cn.com/problems/reorder-list/](https://leetcode-cn.com/problems/reorder-list/)
 
+### 141. 环形链表
+
+<details>
+<summary>Tips</summary>
+
+1. 用快慢指针,一个走一步,一个每次走2步,只要相遇就是有环
+2. 使用Set去重
+
+</details>
+
+[https://leetcode.cn/problems/linked-list-cycle/](https://leetcode.cn/problems/linked-list-cycle/)
+
 ## 2. Medium
 
 19. 删除链表的倒数第 N 个结点
