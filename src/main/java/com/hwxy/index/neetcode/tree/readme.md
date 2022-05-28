@@ -14,4 +14,16 @@
 
 [https://leetcode-cn.com/problems/invert-binary-tree/](https://leetcode-cn.com/problems/invert-binary-tree/)
 
+### 104. 二叉树的最大深度
+
+<details>
+<summary>Tips</summary>
+
+1. 可以用参数变量,这样就是先计数
+2. 也可以不用参数变量这样是叶子节点返回计数
+
+</details>
+
+[https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+
 ## 2. Medium
