@@ -34,3 +34,18 @@
 </details>
 
 [https://leetcode-cn.com/problems/reorder-list/](https://leetcode-cn.com/problems/reorder-list/)
+
+## 2. Medium
+
+19. 删除链表的倒数第 N 个结点
+
+<details>
+<summary>Tips</summary>
+
+1. 使用双指针
+2. 左右间隔n个距离同正向移动
+3. 使用一个虚拟节点可以简化处理
+
+</details>
+
+[https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
