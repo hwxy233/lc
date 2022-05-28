@@ -61,3 +61,18 @@
 </details>
 
 [https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
+
+## 3. Hard
+
+23. 合并K个升序链表
+
+<details>
+<summary>Tips</summary>
+
+1. 归并排序合并n个
+2. 对于合并2个链表一定要使用烧饼节点会很简单
+3. 参考143. 重排链表
+
+</details>
+
+[https://leetcode.cn/problems/merge-k-sorted-lists/](https://leetcode.cn/problems/merge-k-sorted-lists/)
