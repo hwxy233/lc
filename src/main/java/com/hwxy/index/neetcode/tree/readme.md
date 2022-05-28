@@ -26,4 +26,15 @@
 
 [https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 
+### 100. 相同的树
+
+<details>
+<summary>Tips</summary>
+
+1. 比较自己和子树
+
+</details>
+
+[https://leetcode.cn/problems/same-tree/](https://leetcode.cn/problems/same-tree/)
+
 ## 2. Medium
