@@ -14,6 +14,17 @@
 
 [https://leetcode.cn/problems/univalued-binary-tree/](https://leetcode.cn/problems/univalued-binary-tree/)
 
+### 1022. 从根到叶的二进制数之和
+
+<details>
+<summary>Tips</summary>
+
+1. 先序可以直接用参数记录也可以回溯
+
+</details>
+
+[https://leetcode.cn/problems/sum-of-root-to-leaf-binary-numbers/](https://leetcode.cn/problems/sum-of-root-to-leaf-binary-numbers/)
+
 ## 2. Medium
 
 ### 449. 序列化和反序列化二叉搜索树
