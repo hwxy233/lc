@@ -42,6 +42,18 @@
 
 [https://leetcode.cn/problems/serialize-and-deserialize-bst/](https://leetcode.cn/problems/serialize-and-deserialize-bst/)
 
+### 450. 删除二叉搜索树中的节点
+
+<details>
+<summary>Tips</summary>
+
+1. 找到左子树的右子树的最小节点作为右子树的根,root.left作为新的root
+2. 返回root.left作为新的root
+
+</details>
+
+[https://leetcode.cn/problems/delete-node-in-a-bst/](https://leetcode.cn/problems/delete-node-in-a-bst/)
+
 ## 3. Hard
 
 ### 297. 二叉树的序列化与反序列化
