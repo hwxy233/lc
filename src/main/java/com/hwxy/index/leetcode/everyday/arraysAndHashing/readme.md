@@ -35,6 +35,17 @@
 
 [https://leetcode.cn/problems/verifying-an-alien-dictionary/](https://leetcode.cn/problems/verifying-an-alien-dictionary/)
 
+### 929. 独特的电子邮件地址
+
+<details>
+<summary>Tips</summary>
+
+1. isDomain直接append然后continue
+
+</details>
+
+[https://leetcode.cn/problems/unique-email-addresses/](https://leetcode.cn/problems/unique-email-addresses/)
+
 ## 2.Medium
 
 ### 442. 数组中重复的数据
