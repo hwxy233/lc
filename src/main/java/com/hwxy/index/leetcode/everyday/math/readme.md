@@ -13,3 +13,15 @@
 </details>
 
 [https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/](https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/)
+
+### 478. 在圆内随机生成点
+
+<details>
+<summary>Tips</summary>
+
+1. 在正方形上选点如果不在圆内就继续选
+2. `random.nextDouble() * (2 * radius) - radius;`生成一个[-R,R]的x和y
+
+</details>
+
+[https://leetcode.cn/problems/generate-random-point-in-a-circle/]()
