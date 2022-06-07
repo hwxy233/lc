@@ -8,13 +8,14 @@
 <summary>Tips</summary>
 
 1. 蓝红二分查找
-2. b站https://www.bilibili.com/video/BV1d54y1q7k7?spm_id_from=333.337.search-card.all.click
+2. b站
+3. [https://www.bilibili.com/video/BV1d54y1q7k7?spm_id_from=333.337.search-card.all.click](https://www.bilibili.com/video/BV1d54y1q7k7?spm_id_from=333.337.search-card.all.click)
 
 </details>
 
 [https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
-378. 有序矩阵中第 K 小的元素
+### 378. 有序矩阵中第 K 小的元素
 
 <details>
 <summary>Tips</summary>
@@ -39,6 +40,32 @@
 </details>
 
 [https://leetcode.cn/problems/find-right-interval/](https://leetcode.cn/problems/find-right-interval/)
+
+### 875. 爱吃香蕉的珂珂
+
+<details>
+<summary>Tips</summary>
+
+1. 对值进行二分查找
+2. 下界是1(一小时最少吃一根)-1,上界是堆的最大值+1
+3. isBlue为吃香蕉速度为mid时所花时间>h,所以最终返回r
+
+</details>
+
+[https://leetcode.cn/problems/koko-eating-bananas/](https://leetcode.cn/problems/koko-eating-bananas/)
+
+### 2226. 每个小孩最多能分到多少糖果
+
+<details>
+<summary>Tips</summary>
+
+1. 对值进行二分查找
+2. 下界为0(1-1),上界为平均值+1
+3. isBlue:按照mid分的堆数>=k,也就是最大的堆数,返回l
+
+</details>
+
+[https://leetcode.cn/problems/maximum-candies-allocated-to-k-children/](https://leetcode.cn/problems/maximum-candies-allocated-to-k-children/)
 
 ## 3. Hard
 
