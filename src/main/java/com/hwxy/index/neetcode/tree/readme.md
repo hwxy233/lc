@@ -37,4 +37,16 @@
 
 [https://leetcode.cn/problems/same-tree/](https://leetcode.cn/problems/same-tree/)
 
+### 572. 另一棵树的子树
+
+<details>
+<summary>Tips</summary>
+
+1. 子树不是子结构,子树要求相等,所以要么本身是subRoot要么左或右是subRoot
+2. 比较相等参考100题
+
+</details>
+
+[https://leetcode.cn/problems/subtree-of-another-tree/](https://leetcode.cn/problems/subtree-of-another-tree/)
+
 ## 2. Medium
