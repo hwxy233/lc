@@ -1,4 +1,4 @@
-package com.hwxy.code.leetcode.order.l1100.lc1114;
+package com.hwxy.code.leetcode.order.l1200.lc1114;
 
 public class Foo {
     /**

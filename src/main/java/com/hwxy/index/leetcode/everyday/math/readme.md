@@ -1,5 +1,19 @@
 # Math
 
+## 1. Easy
+
+### 1037. 有效的回旋镖
+
+<details>
+<summary>Tips</summary>
+
+1. 使用斜率判断3点共线
+2. (y3−y1)(x2−x1)−(y2−y1)(x3−x1)=0
+
+</details>
+
+[https://leetcode.cn/problems/valid-boomerang/](https://leetcode.cn/problems/valid-boomerang/)
+
 ## 2. Medium
 
 ### 462. 最少移动次数使数组元素相等 II
