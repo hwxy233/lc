@@ -67,6 +67,19 @@
 
 [https://leetcode.cn/problems/maximum-candies-allocated-to-k-children/](https://leetcode.cn/problems/maximum-candies-allocated-to-k-children/)
 
+### 497. 非重叠矩形中的随机点
+
+<details>
+<summary>Tips</summary>
+
+1. 因为是等概率所以直接在rects随机不等的因为各矩形的面积不同
+2. 所以要按照面积随机,然后二分找到矩形,再在矩形里随机
+
+</details>
+
+
+[https://leetcode.cn/problems/random-point-in-non-overlapping-rectangles/](https://leetcode.cn/problems/random-point-in-non-overlapping-rectangles/)
+
 ## 3. Hard
 
 ### 668. 乘法表中第k小的数
