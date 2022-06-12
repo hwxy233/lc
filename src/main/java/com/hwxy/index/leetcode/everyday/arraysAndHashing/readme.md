@@ -87,3 +87,13 @@
 </details>
 
 [https://leetcode.cn/problems/one-away-lcci/](https://leetcode.cn/problems/one-away-lcci/)
+
+### 890. 查找和替换模式
+
+<details>
+<summary>Tips</summary>
+
+1. 用2个HashMap构造双映射
+
+</details>
+[https://leetcode.cn/problems/find-and-replace-pattern/](https://leetcode.cn/problems/find-and-replace-pattern/)
