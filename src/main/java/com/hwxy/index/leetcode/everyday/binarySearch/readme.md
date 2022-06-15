@@ -92,3 +92,15 @@
 </details>
 
 [https://leetcode.cn/problems/kth-smallest-number-in-multiplication-table/](https://leetcode.cn/problems/kth-smallest-number-in-multiplication-table/)
+
+### 719. 找出第 K 小的数对距离
+
+<details>
+<summary>Tips</summary>
+
+1. 对值二分然后统计对数,l应该是0-1,r应该是最大差值+1
+2. isBlue为小于等于差值m的对数<k,返回r
+
+</details>
+
+[https://leetcode.cn/problems/find-k-th-smallest-pair-distance/](https://leetcode.cn/problems/find-k-th-smallest-pair-distance/)
