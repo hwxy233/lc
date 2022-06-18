@@ -16,6 +16,17 @@
 
 [https://leetcode.cn/problems/find-resultant-array-after-removing-anagrams/](https://leetcode.cn/problems/find-resultant-array-after-removing-anagrams/)
 
+### 1089. 复写零
+
+<details>
+<summary>Tips</summary>
+
+1. 找到0就就开始右移动即可
+
+</details>
+
+[https://leetcode.cn/problems/duplicate-zeros/](https://leetcode.cn/problems/duplicate-zeros/)
+
 ## 2. Medium
 
 ### 面试题 01.05. 一次编辑

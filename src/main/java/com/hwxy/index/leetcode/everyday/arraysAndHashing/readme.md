@@ -96,4 +96,16 @@
 1. 用2个HashMap构造双映射
 
 </details>
+
 [https://leetcode.cn/problems/find-and-replace-pattern/](https://leetcode.cn/problems/find-and-replace-pattern/)
+
+### 532. 数组中的 k-diff 数对
+
+<details>
+<summary>Tips</summary>
+
+1. 用HashMap记录值和数量即可
+
+</details>
+
+[https://leetcode.cn/problems/k-diff-pairs-in-an-array/](https://leetcode.cn/problems/k-diff-pairs-in-an-array/)
