@@ -54,6 +54,19 @@
 
 [https://leetcode.cn/problems/delete-node-in-a-bst/](https://leetcode.cn/problems/delete-node-in-a-bst/)
 
+### 508. 出现次数最多的子树元素和
+
+<details>
+<summary>Tips</summary>
+
+1. HashMap统计值和次数
+2. 然后用个int存最大次数即可
+
+</details>
+
+
+[https://leetcode.cn/problems/most-frequent-subtree-sum/](https://leetcode.cn/problems/most-frequent-subtree-sum/)
+
 ## 3. Hard
 
 ### 297. 二叉树的序列化与反序列化
