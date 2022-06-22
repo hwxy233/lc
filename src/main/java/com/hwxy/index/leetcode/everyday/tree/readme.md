@@ -64,8 +64,22 @@
 
 </details>
 
-
 [https://leetcode.cn/problems/most-frequent-subtree-sum/](https://leetcode.cn/problems/most-frequent-subtree-sum/)
+
+### 513. 找树左下角的值
+
+<details>
+<summary>Tips</summary>
+
+1. dfs:
+    1. 记录一个层高和最高层高
+    2. 一定是左边先遍历到,先遍历到的是答案
+2. bfs:
+    1. 每层i==0的就是最左
+
+</details>
+
+[https://leetcode.cn/problems/find-bottom-left-tree-value/](https://leetcode.cn/problems/find-bottom-left-tree-value/)
 
 ## 3. Hard
 
