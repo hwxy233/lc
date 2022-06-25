@@ -1,4 +1,4 @@
-package com.hwxy.code.leetcode.jf.jf2o29;
+package com.hwxy.code.leetcode.sfo.sfo2.sfo29;
 
 /**
  * 剑指 Offer II 029. 排序的循环链表
@@ -7,7 +7,7 @@ package com.hwxy.code.leetcode.jf.jf2o29;
  * @author hwxy
  * @date 2022/06/18
  **/
-public class Jf2O29 {
+public class Sfo29 {
     public Node insert(Node head, int insertVal) {
         Node node = new Node(insertVal);
         if (head == null) {

@@ -32,6 +32,24 @@
 
 [https://leetcode.cn/problems/flip-string-to-monotone-increasing/](https://leetcode.cn/problems/flip-string-to-monotone-increasing/)
 
+### 剑指 Offer II 091. 粉刷房子
+
+<details>
+<summary>Tips</summary>
+
+1. 第i个位置用3种颜色的最小cost,`int[][] dp = new int[costs.length][3];`
+2. 分别计算各种颜色的最小值=前面2种的最小值+当前这种颜色的cost,
+3. ```java
+   dp[i][0] = Math.min(dp[i - 1][1], dp[i - 1][2]) + costs[i][0];
+   dp[i][1] = Math.min(dp[i - 1][0], dp[i - 1][2]) + costs[i][1];
+   dp[i][2] = Math.min(dp[i - 1][0], dp[i - 1][1]) + costs[i][2];
+   ```
+4. 最后比较最后位置3种的最小值即可
+
+</details>
+
+[https://leetcode.cn/problems/JEj789/](https://leetcode.cn/problems/JEj789/)
+
 ## 3. Hard
 
 ### 730. 统计不同回文子序列
