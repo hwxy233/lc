@@ -5,6 +5,7 @@ import com.hwxy.code.ds.ListNode;
 /**
  * 23. 合并K个升序链表
  * https://leetcode.cn/problems/merge-k-sorted-lists/
+ * 归并排序
  * 
  * @author hwxy
  * @date 2022/05/28

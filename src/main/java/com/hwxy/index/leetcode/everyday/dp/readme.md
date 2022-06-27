@@ -50,6 +50,32 @@
 
 [https://leetcode.cn/problems/JEj789/](https://leetcode.cn/problems/JEj789/)
 
+### 522. 最长特殊序列 II
+
+<details>
+<summary>Tips</summary>
+
+1. 参考1143的找最长子串的做法
+2. 目的就是判断每个子串是否是其他字符串的子串,是的话就不是答案
+
+</details>
+
+[https://leetcode.cn/problems/longest-uncommon-subsequence-ii/](https://leetcode.cn/problems/longest-uncommon-subsequence-ii/)
+
+### 1143. 最长公共子序列
+
+<details>
+<summary>Tips</summary>
+
+1. dp[i][j]代表text1的前i个字符中和text2的前j个字符中的最长公共子串
+2. 追加一个空格后就有了初始值第一行第一列为1(因为有了相同的" ")
+3. 如果当前字符相等则=前一个+1,否则取前面的最大值
+
+</details>
+
+
+[https://leetcode.cn/problems/longest-common-subsequence/](https://leetcode.cn/problems/longest-common-subsequence/)
+
 ## 3. Hard
 
 ### 730. 统计不同回文子序列
