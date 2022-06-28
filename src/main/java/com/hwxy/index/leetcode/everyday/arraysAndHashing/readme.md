@@ -109,3 +109,17 @@
 </details>
 
 [https://leetcode.cn/problems/k-diff-pairs-in-an-array/](https://leetcode.cn/problems/k-diff-pairs-in-an-array/)
+
+324. 摆动排序 II
+
+<details>
+<summary>Tips</summary>
+
+1. 拷贝一个新数组后排序
+2. left指向中间如果长度是奇数则指向中间后一个位置,right从长度-1开始
+3. 先放left--,然后放right--
+4. 最后如果是奇数,将最后的位置赋值成排序后的0元素
+
+</details>
+
+[https://leetcode.cn/problems/wiggle-sort-ii/](https://leetcode.cn/problems/wiggle-sort-ii/)
