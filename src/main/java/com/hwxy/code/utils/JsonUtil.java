@@ -29,4 +29,12 @@ public class JsonUtil {
             throw new RuntimeException(e);
         }
     }
+
+    public static <T> T convertToT(String json) {
+        try {
+            return OBJECT_MAPPER.readValue(json, new TypeReference<>() {});
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
