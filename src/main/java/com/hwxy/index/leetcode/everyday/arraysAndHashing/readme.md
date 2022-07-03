@@ -123,3 +123,29 @@
 </details>
 
 [https://leetcode.cn/problems/wiggle-sort-ii/](https://leetcode.cn/problems/wiggle-sort-ii/)
+
+### 31. 下一个排列
+
+<details>
+<summary>Tips</summary>
+
+1. 先从右向左找到i-1 < i的i-1
+2. 再从右向左找到第一个 > i-1的索引
+3. 交换那个索引和i-1
+4. 反转i以及后面的元素
+5. 其实画个二维坐标就懂了,比如230241 => 230412
+
+</details>
+
+[https://leetcode.cn/problems/next-permutation/](https://leetcode.cn/problems/next-permutation/)
+
+### 556. 下一个更大元素 III
+
+<details>
+<summary>Tips</summary>
+
+1. 同31
+
+</details>
+
+[https://leetcode.cn/problems/next-greater-element-iii/](https://leetcode.cn/problems/next-greater-element-iii/)
