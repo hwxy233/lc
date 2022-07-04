@@ -127,3 +127,15 @@
 
 
 [https://leetcode.cn/problems/binary-tree-maximum-path-sum/](https://leetcode.cn/problems/binary-tree-maximum-path-sum/)
+
+### 297. 二叉树的序列化与反序列化
+
+<details>
+<summary>Tips</summary>
+
+1. 前序遍历
+2. 将NULL和和分隔符,编码进字符串即可
+
+</details>
+
+[https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/)

@@ -46,6 +46,19 @@
 
 [https://leetcode.cn/problems/unique-email-addresses/](https://leetcode.cn/problems/unique-email-addresses/)
 
+### 1200. 最小绝对差
+
+<details>
+<summary>Tips</summary>
+
+1. 排序然后相邻求差的绝对值看下是否最小
+2. 是的话就add
+3. 否则清空重新add
+
+</details>
+
+[https://leetcode.cn/problems/minimum-absolute-difference/](https://leetcode.cn/problems/minimum-absolute-difference/)
+
 ## 2.Medium
 
 ### 442. 数组中重复的数据
