@@ -1,33 +1,14 @@
-# Tires
+# Tires(字典树)
 
-## 1.Easy
+## 2. Medium
 
-### 942. 增减字符串匹配
-
-<details>
-<summary>Tips</summary>
-
-1. 贪心🤔
-2. 每次都选最大/最小数
-3. 只要是I就赋值成min++,D就是max--
-4. 再根据最后一位是I还是D给结果的最后一个元素赋值
-
-</details>
-
-[https://leetcode.cn/problems/di-string-match/](https://leetcode.cn/problems/di-string-match/)
-
-## 3. Hard
-
-### 871. 最低加油次数
+### 648. 单词替换
 
 <details>
 <summary>Tips</summary>
 
-1. 使用一个优先级队列,油量大到小排序
-2. 每次用当前的油行驶到最远,然后将路过的加油站的油放到队列中
-3. 当油没有的时候就从队列取出路过的最多的油加油
-4. 如果没油了且没有加油站就返回-1说明到不了
+1. 注意最短替换,如果有先end=true的就立刻返回进行替换
 
 </details>
 
-[https://leetcode.cn/problems/minimum-number-of-refueling-stops/](https://leetcode.cn/problems/minimum-number-of-refueling-stops/)
+[https://leetcode.cn/problems/replace-words/](https://leetcode.cn/problems/replace-words/)

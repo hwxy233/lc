@@ -40,3 +40,15 @@
 </details>
 
 [https://leetcode-cn.com/problems/container-with-most-water/](https://leetcode-cn.com/problems/container-with-most-water/)
+
+### 75. 颜色分类
+
+<details>
+<summary>Tips</summary>
+
+1. 定义好循环不变量区间
+2. 注意开区间不进行i++,因为交换的元素还没有遍历到
+
+</details>
+
+[https://leetcode.cn/problems/sort-colors/](https://leetcode.cn/problems/sort-colors/)
