@@ -76,6 +76,19 @@
 
 [https://leetcode.cn/problems/longest-common-subsequence/](https://leetcode.cn/problems/longest-common-subsequence/)
 
+### 873. 最长的斐波那契子序列的长度
+
+<details>
+<summary>Tips</summary>
+
+1. dp[i][j]代表使用arr[i]为最后一个,arr[j]位倒数第二个的数量
+2. dp[i][j] = max(dp[j][k] + 1, 3),下标 k < j < i, 且arr[k] < arr[j] < arr[i]
+
+</details>
+
+
+[https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence/](https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence/)
+
 ## 3. Hard
 
 ### 730. 统计不同回文子序列
