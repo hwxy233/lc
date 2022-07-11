@@ -12,3 +12,15 @@
 </details>
 
 [https://leetcode.cn/problems/replace-words/](https://leetcode.cn/problems/replace-words/)
+
+### 676. 实现一个魔法字典
+
+<details>
+<summary>Tips</summary>
+
+1. 字典树+dfs
+2. 一定要改一次字符才行
+
+</details>
+
+[https://leetcode.cn/problems/implement-magic-dictionary/](https://leetcode.cn/problems/implement-magic-dictionary/)

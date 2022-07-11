@@ -1,10 +1,14 @@
 package com.hwxy.code.leetcode.order.l100.l39;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Objects;
 
 /**
- * 干嘛的
- *
+ * 39. 组合总和
+ * https://leetcode.cn/problems/combination-sum/
+ * 
  * @author hwxy
  * @date 2021/07/17
  **/
