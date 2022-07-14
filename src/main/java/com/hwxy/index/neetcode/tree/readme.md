@@ -64,6 +64,31 @@
 
 [https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
+### 543. 二叉树的直径
+
+<details>
+<summary>Tips</summary>
+
+1. 后续遍历,一个路径=左路径+右路径+1(当前节点)
+2. 但是父节点只能使用左路径或右路径+1(当前节点)
+
+</details>
+
+[https://leetcode.cn/problems/diameter-of-binary-tree/](https://leetcode.cn/problems/diameter-of-binary-tree/)
+
+### 110. 平衡二叉树
+
+<details>
+<summary>Tips</summary>
+
+1. 后续遍历
+2. 每次比较左右的高度如果绝对值差>1了就将答案改为false
+3. 返回左右高度的较大值
+
+</details>
+
+[https://leetcode-cn.com/problems/balanced-binary-tree/](https://leetcode-cn.com/problems/balanced-binary-tree/)
+
 ## 2. Medium
 
 ### 230. 二叉搜索树中第K小的元素

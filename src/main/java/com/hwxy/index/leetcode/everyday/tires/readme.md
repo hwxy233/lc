@@ -24,3 +24,18 @@
 </details>
 
 [https://leetcode.cn/problems/implement-magic-dictionary/](https://leetcode.cn/problems/implement-magic-dictionary/)
+
+## 3. Hard
+
+### 745. 前缀和后缀搜索
+
+<details>
+<summary>Tips</summary>
+
+1. 使用2个字典树,一个正着存,一个倒着存
+2. 并且分别存储index最后求交集
+3. 求交集可以倒着查正着存的只要有就是最大的index
+
+</details>
+
+[https://leetcode.cn/problems/prefix-and-suffix-search/](745.前缀和后缀搜索https://leetcode.cn/problems/prefix-and-suffix-search/)

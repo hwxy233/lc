@@ -15,3 +15,18 @@
 </details>
 
 [https://leetcode.cn/problems/remove-outermost-parentheses/](https://leetcode.cn/problems/remove-outermost-parentheses/)
+
+## 2. Medium
+
+### 735. 行星碰撞
+
+<details>
+<summary>Tips</summary>
+
+1. 使用Stack
+2. 保存向右方向的行星
+3. 每次遇到向左的出栈比较大小
+
+</details>
+
+[https://leetcode.cn/problems/asteroid-collision/](https://leetcode.cn/problems/asteroid-collision/)
