@@ -11,18 +11,17 @@ import java.util.Set;
  * @date 2022/05/06
  **/
 public class Lc3 {
-    /**
-     * 维护一个滑动窗口
-     * 以及一个Set记录字符出现
-     * 每次右移到新字符时如果Set已经用过则要不断右移左窗口直到Set消失
-     * 
-     * @param s
-     * @return
-     */
+
+
+
+
     public int lengthOfLongestSubstring(String s) {
         if (s == null || s.length() == 0) {
             return 0;
         }
+        // 维护一个滑动窗口
+        // 以及一个Set记录字符出现
+        // 每次右移到新字符时如果Set已经用过则要不断右移左窗口直到Set消失
         // 记录字符的使用情况
         Set<Character> usedSet = new HashSet<>();
         char[] scs = s.toCharArray();
