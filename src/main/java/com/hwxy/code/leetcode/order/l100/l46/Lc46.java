@@ -4,8 +4,9 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * 干嘛的
- *
+ * 46. 全排列
+ * https://leetcode.cn/problems/permutations/
+ * 
  * @author hwxy
  * @date 2021/07/17
  **/

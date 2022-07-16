@@ -5,8 +5,9 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * 干嘛的
- *
+ * 78. 子集
+ * https://leetcode.cn/problems/subsets/
+ * 
  * @author hwxy
  * @date 2021/08/08
  **/

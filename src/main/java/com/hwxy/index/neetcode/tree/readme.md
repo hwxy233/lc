@@ -164,3 +164,27 @@
 </details>
 
 [https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/)
+
+### 199.二叉树的右视图
+
+<details>
+<summary>Tips</summary>
+
+1. 先序遍历
+2. 但是要记录一个depth
+3. 因为存在左子树高于右子树的情况所以只有depth==ans.size()时才进行add
+
+</details>
+
+[https://leetcode-cn.com/problems/binary-tree-right-side-view/](https://leetcode-cn.com/problems/binary-tree-right-side-view/)
+
+### 448. 统计二叉树中好节点的数目
+
+<details>
+<summary>Tips</summary>
+
+1. 先序遍历,参数记录一个当前的最大值
+
+</details>
+
+[https://leetcode.cn/problems/count-good-nodes-in-binary-tree/](https://leetcode.cn/problems/count-good-nodes-in-binary-tree/)

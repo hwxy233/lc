@@ -28,6 +28,17 @@
 
 [https://leetcode.cn/problems/find-all-anagrams-in-a-string/](https://leetcode.cn/problems/find-all-anagrams-in-a-string/)
 
+### 剑指 Offer II 041. 滑动窗口的平均值
+
+<details>
+<summary>Tips</summary>
+
+1. 使用一个队列即可
+
+</details>
+
+[https://leetcode.cn/problems/qIsx9U/](https://leetcode.cn/problems/qIsx9U/)
+
 ## 3. Hard
 
 ## 76. 最小覆盖子串
@@ -36,6 +47,7 @@
 <summary>Tips</summary>
 
 1. 套用模板即可
+2. https://leetcode.cn/problems/find-all-anagrams-in-a-string/solution/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/
 
 </details>
 

@@ -26,3 +26,43 @@
 </details>
 
 [https://leetcode.cn/problems/word-search/](https://leetcode.cn/problems/word-search/)
+
+### 46. 全排列
+
+<details>
+<summary>Tips</summary>
+
+1. 回溯,每次都从0开始,需要一个used来去重
+
+</details>
+
+[https://leetcode.cn/problems/permutations/](https://leetcode.cn/problems/permutations/)
+
+### 78. 子集
+
+<details>
+<summary>Tips</summary>
+
+1.回溯,放在最上面收集
+
+</details>
+
+[https://leetcode.cn/problems/subsets/](https://leetcode.cn/problems/subsets/)
+
+### 90. 子集 II
+
+<details>
+<summary>Tips</summary>
+
+1. 回溯,树层去重
+
+```java
+// 同一层去重,实际上可以直接return因为后面都是前面遍历过的,不需要continue
+if(i>0&&nums[i]==nums[i-1]&&used[i-1]==0){
+        return;
+        }
+```
+
+</details>
+
+[https://leetcode.cn/problems/subsets-ii/](https://leetcode.cn/problems/subsets-ii/)
