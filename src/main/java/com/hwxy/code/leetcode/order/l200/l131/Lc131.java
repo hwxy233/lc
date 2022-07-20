@@ -5,8 +5,9 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * 干嘛的
- *
+ * 131. 分割回文串
+ * https://leetcode.cn/problems/palindrome-partitioning/
+ * 
  * @author hwxy
  * @date 2021/07/24
  **/

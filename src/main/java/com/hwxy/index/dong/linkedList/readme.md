@@ -29,3 +29,15 @@
 </details>
 
 [https://leetcode.cn/problems/partition-list/](https://leetcode.cn/problems/partition-list/)
+
+### 23. 合并K个升序链表
+
+<details>
+<summary>Tips</summary>
+
+1. 使用一个优先级队列将k个节点的next放进队列中排序]
+2. 每次poll最小的然后把next再放进去
+
+</details>
+
+[https://leetcode.cn/problems/merge-k-sorted-lists/](https://leetcode.cn/problems/merge-k-sorted-lists/)

@@ -66,3 +66,16 @@ if(i>0&&nums[i]==nums[i-1]&&used[i-1]==0){
 </details>
 
 [https://leetcode.cn/problems/subsets-ii/](https://leetcode.cn/problems/subsets-ii/)
+
+### 131. 分割回文串
+
+<details>
+<summary>Tips</summary>
+
+1. 当index >= 字符串长度时增加到结果集当中
+2. 如果某次的切割不是回文串则跳过
+
+</details>
+
+
+[https://leetcode.cn/problems/palindrome-partitioning/](https://leetcode.cn/problems/palindrome-partitioning/)
