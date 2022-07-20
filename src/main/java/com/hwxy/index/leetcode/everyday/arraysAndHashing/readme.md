@@ -59,6 +59,17 @@
 
 [https://leetcode.cn/problems/minimum-absolute-difference/](https://leetcode.cn/problems/minimum-absolute-difference/)
 
+### 1260. 二维网格迁移
+
+<details>
+<summary>Tips</summary>
+
+1. 二维数组转一维数组,然后推算一个映射关系
+
+</details>
+
+[https://leetcode.cn/problems/shift-2d-grid/](https://leetcode.cn/problems/shift-2d-grid/)
+
 ## 2.Medium
 
 ### 442. 数组中重复的数据
