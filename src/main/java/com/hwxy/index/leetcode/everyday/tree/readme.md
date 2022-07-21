@@ -81,6 +81,18 @@
 
 [https://leetcode.cn/problems/find-bottom-left-tree-value/](https://leetcode.cn/problems/find-bottom-left-tree-value/)
 
+### 814. 二叉树剪枝
+
+<details>
+<summary>Tips</summary>
+
+1. 后续遍历
+2. 左右子树都不包含并且自己也不是1才算不包含
+
+</details>
+
+[https://leetcode.cn/problems/binary-tree-pruning/](https://leetcode.cn/problems/binary-tree-pruning/)
+
 ## 3. Hard
 
 ### 297. 二叉树的序列化与反序列化
