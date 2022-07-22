@@ -58,3 +58,98 @@ select team1, team2, player
 from game
          join goal on (game.id = goal.matchid)
 where goal.player LIKE 'Mario%';
+
+# 5. 表格eteam 貯存了每一國家隊的資料，包括教練。
+# 你可以使用語句 goal JOIN eteam on teamid=id來合拼 JOIN 表格goal 到 表格eteam。
+# 列出每場球賽中首10分鐘gtime<=10有入球的球員 player, 隊伍teamid, 教練coach, 入球時間gtime
+
+SELECT player, teamid, coach, gtime
+FROM goal
+         JOIN eteam on teamid = id
+WHERE gtime <= 10;
+
+# 6. 要合拼JOIN 表格game 和表格 eteam，你可以使用
+# game JOIN eteam ON (team1=eteam.id)
+# 或
+# game JOIN eteam ON (team2=eteam.id)
+# 注意欄位id同時是表格game 和表格 eteam的欄位，你要清楚指出eteam.id而不是只用id
+# 列出'Fernando Santos'作為隊伍1 team1 的教練的賽事日期，和隊伍名。
+
+select mdate, teamname
+from game
+         join eteam on team1 = eteam.id
+where eteam.coach = 'Fernando Santos';
+
+# 7. 列出場館 'National Stadium, Warsaw'的入球球員。
+
+select player
+from goal
+         join game on matchid = id
+where stadium = 'National Stadium, Warsaw';
+
+# 8. 以下例子找出德國-希臘Germany-Greece 的八強賽事的入球
+# 修改它，只列出全部賽事，射入德國龍門的球員名字。
+# HINT
+# 找非德國球員的入球，德國可以在賽事中作team1 隊伍１（主）或team2隊伍２（客）。
+# 你可以用teamid!='GER' 來防止列出德國球員。
+# 你可以用DISTINCT來防止球員出現兩次以上。
+
+SELECT distinct player
+FROM game
+         JOIN goal ON id = matchid
+WHERE (game.team1 = 'GER' OR game.team2 = 'GER')
+  AND (goal.teamid != 'GER');
+
+# 9. 列出隊伍名稱 teamname 和該隊入球總數
+# COUNT and GROUP BY
+# 你應該在SELECT語句中使用COUNT(*)和使用GROUP BY teamname
+
+select teamname, COUNT(*)
+from eteam
+         join goal on id = teamid
+group by teamname;
+
+# 10. 列出場館名和在該場館的入球數字。
+
+select stadium, COUNT(*)
+from game
+         join goal on id = matchid
+group by stadium;
+
+# 11. 每一場波蘭'POL'有參與的賽事中，列出賽事編號 matchid, 日期date 和入球數字。
+
+SELECT matchid, mdate, COUNT(*)
+FROM game
+         JOIN goal ON id = matchid
+WHERE (team1 = 'POL' OR team2 = 'POL')
+group by matchid, mdate;
+
+# 12. 每一場德國'GER'有參與的賽事中，列出賽事編號 matchid, 日期date 和德國的入球數字。
+
+select matchid, mdate, COUNT(*)
+from game
+         join goal on id = matchid
+where (goal.teamid = 'GER')
+group by matchid, mdate;
+
+# 13. List every match with the goals scored by each team as shown.
+# This will use "CASE WHEN" which has not been explained in any previous exercises.
+# mdate	        team1	score1	team2	score2
+# 1 July 2012	ESP	    4	    ITA	    0
+# 10 June 2012	ESP	    1	    ITA	    1
+# 10 June 2012	IRL	    1	    CRO	    3
+# ...
+# Notice in the query given every goal is listed.
+# If it was a team1 goal then a 1 appears in score1, otherwise there is a 0.
+# You could SUM this column to get a count of the goals scored by team1.
+# Sort your result by mdate, matchid, team1 and team2.
+
+select mdate,
+       team1,
+       SUM(case when team1 = teamid then 1 else 0 end) as score1,
+       team2,
+       SUM(case when team2 = teamid then 1 else 0 end) as score2
+from game
+         join goal on id = matchid
+group by mdate, matchid, team1, team2
+order by matchid, mdate, team1, team2;

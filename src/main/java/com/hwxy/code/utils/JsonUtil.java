@@ -37,4 +37,12 @@ public class JsonUtil {
             throw new RuntimeException(e);
         }
     }
+
+    public static int[] convertToIntArray(String json) {
+        try {
+            return OBJECT_MAPPER.readValue(json, int[].class);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
