@@ -13,3 +13,14 @@
 </details>
 
 [https://leetcode.cn/problems/array-nesting/](https://leetcode.cn/problems/array-nesting/)
+
+### 剑指 Offer II 115. 重建序列
+
+<details>
+<summary>Tips</summary>
+
+1. 拓扑排序
+
+</details>
+
+[https://leetcode.cn/problems/ur2n8P/](https://leetcode.cn/problems/ur2n8P/)

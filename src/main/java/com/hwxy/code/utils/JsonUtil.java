@@ -45,4 +45,28 @@ public class JsonUtil {
             throw new RuntimeException(e);
         }
     }
+
+    public static int[][] convertTo2DIntArray(String json) {
+        try {
+            return OBJECT_MAPPER.readValue(json, int[][].class);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static String[] convertToStringArray(String json) {
+        try {
+            return OBJECT_MAPPER.readValue(json, String[].class);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static char[] convertToCharArray(String json) {
+        try {
+            return OBJECT_MAPPER.readValue(json, char[].class);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
