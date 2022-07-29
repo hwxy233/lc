@@ -16,6 +16,29 @@
 
 [https://leetcode-cn.com/problems/merge-two-sorted-lists/](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
 
+### 876. 链表的中间结点
+
+<details>
+<summary>Tips</summary>
+
+1. 快慢指针,一个走一步,一个走2步
+
+</details>
+
+[https://leetcode.cn/problems/middle-of-the-linked-list/](https://leetcode.cn/problems/middle-of-the-linked-list/)
+
+### 160. 相交链表
+
+<details>
+<summary>Tips</summary>
+
+1. 一个走到尾就切换另一个的头
+2. 直到相同
+
+</details>
+
+[https://leetcode.cn/problems/intersection-of-two-linked-lists/](https://leetcode.cn/problems/intersection-of-two-linked-lists/)
+
 ## 2. Medium
 
 ### 86. 分隔链表
