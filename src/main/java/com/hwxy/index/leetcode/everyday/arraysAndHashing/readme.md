@@ -70,6 +70,18 @@
 
 [https://leetcode.cn/problems/shift-2d-grid/](https://leetcode.cn/problems/shift-2d-grid/)
 
+### 1331. 数组序号转换
+
+<details>
+<summary>Tips</summary>
+
+1. 复制一个新数组用于排序
+2. 使用一个Map记录排序后的值和对应的序号(map.size()+1)
+
+</details>
+
+[https://leetcode.cn/problems/rank-transform-of-an-array/](https://leetcode.cn/problems/rank-transform-of-an-array/)
+
 ## 2.Medium
 
 ### 442. 数组中重复的数据

@@ -39,3 +39,32 @@
 </details>
 
 [https://leetcode.cn/problems/generate-random-point-in-a-circle/]()
+
+### 592. 分数加减运算
+
+<details>
+<summary>Tips</summary>
+
+1. 分子*分母,最后化简
+2. 循环里每次找到一个分数
+3. 化简需用最大公约数化简
+
+</details>
+
+[https://leetcode.cn/problems/fraction-addition-and-subtraction/](https://leetcode.cn/problems/fraction-addition-and-subtraction/)
+
+### 593. 有效的正方形
+
+<details>
+<summary>Tips</summary>
+
+1. 2条对角线的中点相同
+    1. 对角线中点=(x1+x2)/2,(y1+y2)/2
+2. 2条对角线的长度相同
+    1. (x1-x2)*(x1-x2) + (y1-y2)*(y1-y2) = (x3-x4)*(x3-x4) + (y3-y4)*(y3-y4)
+3. 2条对角线垂直相交
+    1. 向量的积: (x1-x2)*(x3-x4) + (y1-y2)*(y3-y4) = 0
+
+</details>
+
+[https://leetcode.cn/problems/valid-square/](https://leetcode.cn/problems/valid-square/)
