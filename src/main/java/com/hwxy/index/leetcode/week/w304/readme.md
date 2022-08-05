@@ -1,4 +1,4 @@
-# Week 304
+# Week 305
 
 ## 1. Easy
 

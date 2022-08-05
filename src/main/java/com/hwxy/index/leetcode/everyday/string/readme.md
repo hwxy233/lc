@@ -12,3 +12,14 @@
 </details>
 
 [https://leetcode.cn/problems/defanging-an-ip-address/](https://leetcode.cn/problems/defanging-an-ip-address/)
+
+### 1374. 生成每种字符都是奇数个的字符串
+
+<details>
+<summary>Tips</summary>
+
+1. 分情况讨论n即可
+
+</details>
+
+[https://leetcode.cn/problems/generate-a-string-with-characters-that-have-odd-counts/](https://leetcode.cn/problems/generate-a-string-with-characters-that-have-odd-counts/)

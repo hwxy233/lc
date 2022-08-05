@@ -13,3 +13,18 @@
 </details>
 
 [https://leetcode-cn.com/problems/number-of-recent-calls/](https://leetcode-cn.com/problems/number-of-recent-calls/)
+
+## 2. Medium
+
+### 622. 设计循环队列
+
+<details>
+<summary>Tips</summary>
+
+1. 用一个数组存储数据
+2. 记录一个头index,一个尾index
+3. 取值时记得求模
+
+</details>
+
+[https://leetcode.cn/problems/design-circular-queue/](https://leetcode.cn/problems/design-circular-queue/)

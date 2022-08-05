@@ -93,6 +93,19 @@
 
 [https://leetcode.cn/problems/binary-tree-pruning/](https://leetcode.cn/problems/binary-tree-pruning/)
 
+### 1161. 最大层内元素和
+
+<details>
+<summary>Tips</summary>
+
+1. 层次遍历即可
+
+</details>
+
+[https://leetcode.cn/problems/maximum-level-sum-of-a-binary-tree/
+](https://leetcode.cn/problems/maximum-level-sum-of-a-binary-tree/
+)
+
 ## 3. Hard
 
 ### 297. 二叉树的序列化与反序列化

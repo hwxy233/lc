@@ -1,23 +1,23 @@
-# Week 303
+# Week 304
 
 ## 1. Easy
 
-### 6120. 数组能形成多少数对
+### 6124. 第一个出现两次的字母
 
-[https://leetcode.cn/contest/weekly-contest-302/problems/maximum-number-of-pairs-in-array/](https://leetcode.cn/contest/weekly-contest-302/problems/maximum-number-of-pairs-in-array/)
+[https://leetcode.cn/contest/weekly-contest-303/problems/first-letter-to-appear-twice/](https://leetcode.cn/contest/weekly-contest-303/problems/first-letter-to-appear-twice/)
 
 ## 2. Medium
 
-### 6164. 数位和相等数对的最大和
+### 6125. 相等行列对
 
-[https://leetcode.cn/contest/weekly-contest-302/problems/max-sum-of-a-pair-with-equal-sum-of-digits/](https://leetcode.cn/contest/weekly-contest-302/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)
+[https://leetcode.cn/contest/weekly-contest-303/problems/equal-row-and-column-pairs/](https://leetcode.cn/contest/weekly-contest-303/problems/equal-row-and-column-pairs/)
 
-### 6121. 裁剪数字后查询第 K 小的数字
+### 6126. 设计食物评分系统
 
-[https://leetcode.cn/contest/weekly-contest-302/problems/query-kth-smallest-trimmed-number/](https://leetcode.cn/contest/weekly-contest-302/problems/query-kth-smallest-trimmed-number/)
+[https://leetcode.cn/contest/weekly-contest-303/problems/design-a-food-rating-system/](https://leetcode.cn/contest/weekly-contest-303/problems/design-a-food-rating-system/)
 
 ## 3. Hard
 
-### 6122. 使数组可以被整除的最少删除次数
+### 6127. 优质数对的数目
 
-[https://leetcode.cn/problems/minimum-deletions-to-make-array-divisible/](https://leetcode.cn/problems/minimum-deletions-to-make-array-divisible/)
+[https://leetcode.cn/contest/weekly-contest-303/problems/number-of-excellent-pairs/](https://leetcode.cn/contest/weekly-contest-303/problems/number-of-excellent-pairs/)

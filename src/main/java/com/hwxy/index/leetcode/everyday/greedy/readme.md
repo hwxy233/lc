@@ -16,6 +16,20 @@
 
 [https://leetcode.cn/problems/di-string-match/](https://leetcode.cn/problems/di-string-match/)
 
+### 1403. 非递增顺序的最小子序列
+
+<details>
+<summary>Tips</summary>
+
+1. 排序后贪心
+2. 每次都选最大数
+
+</details>
+
+[https://leetcode.cn/problems/minimum-subsequence-in-non-increasing-order/
+](https://leetcode.cn/problems/minimum-subsequence-in-non-increasing-order/
+)
+
 ## 3. Hard
 
 ### 871. 最低加油次数
