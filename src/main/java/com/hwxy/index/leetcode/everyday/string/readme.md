@@ -23,3 +23,15 @@
 </details>
 
 [https://leetcode.cn/problems/generate-a-string-with-characters-that-have-odd-counts/](https://leetcode.cn/problems/generate-a-string-with-characters-that-have-odd-counts/)
+
+### 1408. 数组中的字符串匹配
+
+<details>
+<summary>Tips</summary>
+
+1. 简单模拟,遍历替换即可
+
+</details>
+
+
+[https://leetcode.cn/problems/string-matching-in-an-array/](https://leetcode.cn/problems/string-matching-in-an-array/)

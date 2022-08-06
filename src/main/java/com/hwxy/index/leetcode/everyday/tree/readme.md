@@ -106,6 +106,19 @@
 ](https://leetcode.cn/problems/maximum-level-sum-of-a-binary-tree/
 )
 
+### 623. 在二叉树中增加一行
+
+<details>
+<summary>Tips</summary>
+
+1. 层次遍历即可
+
+</details>
+
+[https://leetcode.cn/problems/add-one-row-to-tree/
+](https://leetcode.cn/problems/add-one-row-to-tree/
+)
+
 ## 3. Hard
 
 ### 297. 二叉树的序列化与反序列化
