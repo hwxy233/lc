@@ -82,6 +82,32 @@
 
 [https://leetcode.cn/problems/rank-transform-of-an-array/](https://leetcode.cn/problems/rank-transform-of-an-array/)
 
+### 1282. 用户分组
+
+<details>
+<summary>Tips</summary>
+
+1. 使用Map<Integer, List<Integer>>存储即可
+
+</details>
+
+[https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/
+](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/
+)
+
+### 1413. 逐步求和得到正数的最小值
+
+<details>
+<summary>Tips</summary>
+
+1. 前缀和
+
+</details>
+
+[https://leetcode.cn/problems/minimum-value-to-get-positive-step-by-step-sum/
+](https://leetcode.cn/problems/minimum-value-to-get-positive-step-by-step-sum/
+)
+
 ## 2.Medium
 
 ### 442. 数组中重复的数据

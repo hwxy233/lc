@@ -30,3 +30,16 @@
 </details>
 
 [https://leetcode.cn/problems/asteroid-collision/](https://leetcode.cn/problems/asteroid-collision/)
+
+### 636. 函数的独占时间
+
+<details>
+<summary>Tips</summary>
+
+1. 使用Stack
+2. 存放上一个执行的函数
+3. 遇到start和end分别讨论,注意直接给start加时间最简单
+
+</details>
+
+[https://leetcode.cn/problems/exclusive-time-of-functions/](https://leetcode.cn/problems/exclusive-time-of-functions/)
