@@ -28,3 +28,18 @@
 </details>
 
 [https://leetcode.cn/problems/design-circular-queue/](https://leetcode.cn/problems/design-circular-queue/)
+
+### 641. 设计循环双端队列
+
+<details>
+<summary>Tips</summary>
+
+1. 有几个坑
+2. head和tail定义为可以取到
+3. head相当于是add为--,delete为++,初始化为0
+4. tail相当于是add为++,delete为--,初始化为-1,当tail为-1并且取tail时要用head和size计算出tail
+5. 所有操作要对maxSize求模
+
+</details>
+
+[https://leetcode.cn/problems/design-circular-deque/](https://leetcode.cn/problems/design-circular-deque/)

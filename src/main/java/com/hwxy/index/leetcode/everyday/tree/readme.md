@@ -119,6 +119,46 @@
 ](https://leetcode.cn/problems/add-one-row-to-tree/
 )
 
+### 654. 最大二叉树
+
+<details>
+<summary>Tips</summary>
+
+1. 根据题目规则先序遍历即可
+
+</details>
+
+[https://leetcode.cn/problems/maximum-binary-tree/
+](https://leetcode.cn/problems/maximum-binary-tree/
+)
+
+### 655. 输出二叉树
+
+<details>
+<summary>Tips</summary>
+
+1. 先求下树高然后按照题目规则模拟即可
+2. 注意初始化`ArrayList(n)`时是空的需要`add`n次才行
+
+</details>
+
+[https://leetcode.cn/problems/print-binary-tree/
+](https://leetcode.cn/problems/print-binary-tree/
+)
+
+### 1302. 层数最深叶子节点的和
+
+<details>
+<summary>Tips</summary>
+
+1. 记录一个sum值,每层计算完直接赋值给sum即可
+
+</details>
+
+[https://leetcode.cn/problems/deepest-leaves-sum/
+](https://leetcode.cn/problems/deepest-leaves-sum/
+)
+
 ## 3. Hard
 
 ### 297. 二叉树的序列化与反序列化

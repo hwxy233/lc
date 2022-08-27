@@ -108,6 +108,56 @@
 ](https://leetcode.cn/problems/minimum-value-to-get-positive-step-by-step-sum/
 )
 
+### 1450. 在既定时间做作业的学生人数
+
+<details>
+<summary>Tips</summary>
+
+1. 遍历一遍比较统计结果即可
+
+</details>
+
+[https://leetcode.cn/problems/number-of-students-doing-homework-at-a-given-time/](https://leetcode.cn/problems/number-of-students-doing-homework-at-a-given-time/)
+
+### 1460. 通过翻转子数组使两个数组相等
+
+<details>
+<summary>Tips</summary>
+
+1. 比较次数一样即可
+
+</details>
+
+[https://leetcode.cn/problems/make-two-arrays-equal-by-reversing-sub-arrays/
+](https://leetcode.cn/problems/make-two-arrays-equal-by-reversing-sub-arrays/
+)
+
+### 1464. 数组中两元素的最大乘积
+
+<details>
+<summary>Tips</summary>
+
+1. 维护2个值就行
+
+</details>
+
+[https://leetcode.cn/problems/maximum-product-of-two-elements-in-an-array/
+](https://leetcode.cn/problems/maximum-product-of-two-elements-in-an-array/
+)
+
+### 1656. 设计有序流
+
+<details>
+<summary>Tips</summary>
+
+1. 用个数组统计即可
+
+</details>
+
+[https://leetcode.cn/problems/design-an-ordered-stream/
+](https://leetcode.cn/problems/design-an-ordered-stream/
+)
+
 ## 2.Medium
 
 ### 442. 数组中重复的数据
@@ -211,3 +261,16 @@
 </details>
 
 [https://leetcode.cn/problems/next-greater-element-iii/](https://leetcode.cn/problems/next-greater-element-iii/)
+
+### 658. 找到 K 个最接近的元素
+
+<details>
+<summary>Tips</summary>
+
+1. 先按照规则排序
+2. 然后取前k个
+3. 再排序
+
+</details>
+
+[https://leetcode.cn/problems/find-k-closest-elements/](https://leetcode.cn/problems/find-k-closest-elements/)

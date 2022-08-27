@@ -1,5 +1,20 @@
 # Tires(字典树)
 
+## 1. Easy
+
+### 1455. 检查单词是否为句中其他单词的前缀
+
+<details>
+<summary>Tips</summary>
+
+1. 其实没有直接2次遍历快
+
+</details>
+
+[https://leetcode.cn/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/
+](https://leetcode.cn/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/
+)
+
 ## 2. Medium
 
 ### 648. 单词替换

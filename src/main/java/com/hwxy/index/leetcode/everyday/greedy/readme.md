@@ -1,4 +1,4 @@
-# Tires
+# Greedy
 
 ## 1.Easy
 
