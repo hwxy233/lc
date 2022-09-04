@@ -188,6 +188,19 @@
 ](https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/
 )
 
+### 1582. 二进制矩阵中的特殊位置
+
+<details>
+<summary>Tips</summary>
+
+1. 求每行和每列的和
+2. 然后依次判断每个arr[i][j]如果那个位置的行和-1 == 0 && 列和-1 == 0
+
+</details>
+
+[https://leetcode.cn/problems/special-positions-in-a-binary-matrix/
+](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/)
+
 ## 2.Medium
 
 ### 442. 数组中重复的数据
