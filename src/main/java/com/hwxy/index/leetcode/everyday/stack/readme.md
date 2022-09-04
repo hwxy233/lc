@@ -43,3 +43,18 @@
 </details>
 
 [https://leetcode.cn/problems/exclusive-time-of-functions/](https://leetcode.cn/problems/exclusive-time-of-functions/)
+
+### 946. 验证栈序列
+
+<details>
+<summary>Tips</summary>
+
+1. 使用Stack
+2. 模拟这个pop的过程即可
+3. 每次push完就比较栈顶和pop序列是否一样
+4. 一样就不断pop
+5. 如果最后栈为空则可以
+
+</details>
+
+[https://leetcode.cn/problems/validate-stack-sequences/](https://leetcode.cn/problems/validate-stack-sequences/)

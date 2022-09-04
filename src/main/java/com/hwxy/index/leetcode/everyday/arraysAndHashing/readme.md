@@ -158,6 +158,36 @@
 ](https://leetcode.cn/problems/design-an-ordered-stream/
 )
 
+### 1470. 重新排列数组
+
+<details>
+<summary>Tips</summary>
+
+1. 新建一个数组
+2. 然后每次填充2个元素,一个是i,另一个是i+n:
+
+```java
+    ans [i*2]=nums [i];
+        ans [i*2+1]=nums [i+n];
+   ```
+
+</details>
+
+[https://leetcode.cn/problems/shuffle-the-array/](https://leetcode.cn/problems/shuffle-the-array/)
+
+### 1475. 商品折扣后的最终价格
+
+<details>
+<summary>Tips</summary>
+
+1. 双重循环遍历即可
+
+</details>
+
+[https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/
+](https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/
+)
+
 ## 2.Medium
 
 ### 442. 数组中重复的数据

@@ -159,6 +159,53 @@
 ](https://leetcode.cn/problems/deepest-leaves-sum/
 )
 
+### 662. 二叉树最大宽度
+
+<details>
+<summary>Tips</summary>
+
+1. 层次遍历
+2. 但是不要把null放到queue中
+3. 应该自定义一个结构存放node以及下标
+4. 这样就可以用下标计算长度了,然后每次放孩子节点时候就是index*2,和index*2+1
+
+</details>
+
+[https://leetcode.cn/problems/maximum-width-of-binary-tree/
+](https://leetcode.cn/problems/maximum-width-of-binary-tree/
+)
+
+### 687. 最长同值路径
+
+<details>
+<summary>Tips</summary>
+
+1. 后序遍历
+2. 求左子树的相同节点数,求右子树相同节点数,那么当前节点的路径长就是左+右
+3. 但是因为是路径返回给父节点的只能是2个子树中较长的
+
+</details>
+
+[https://leetcode.cn/problems/longest-univalue-path/](687.最长同值路径https://leetcode.cn/problems/longest-univalue-path/)
+
+### 998. 最大二叉树 II
+
+<details>
+<summary>Tips</summary>
+
+1. 后序遍历
+2. 意思是讲treeNode加到数组最后再重新建树的话应该是什么样子
+3. 因为加载最后其实就肯定会出现在右子树中
+4. 本质上只有2种情况:
+    1. root小于treeNode了,那么root就是treeNode的左
+    2. 不断遍历右子树,如果遍历到最后到null了那么自己就是右子树
+
+</details>
+
+[https://leetcode.cn/problems/maximum-binary-tree-ii/
+](https://leetcode.cn/problems/maximum-binary-tree-ii/
+)
+
 ## 3. Hard
 
 ### 297. 二叉树的序列化与反序列化

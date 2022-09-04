@@ -30,6 +30,20 @@
 ](https://leetcode.cn/problems/minimum-subsequence-in-non-increasing-order/
 )
 
+### 646. 最长数对链
+
+<details>
+<summary>Tips</summary>
+
+1. 按照pair[1]进行排序
+2. 然后每次找大于pair[0] > max然后将pair[1]赋值给max
+
+</details>
+
+[https://leetcode.cn/problems/maximum-length-of-pair-chain/
+](https://leetcode.cn/problems/maximum-length-of-pair-chain/
+)
+
 ## 3. Hard
 
 ### 871. 最低加油次数
