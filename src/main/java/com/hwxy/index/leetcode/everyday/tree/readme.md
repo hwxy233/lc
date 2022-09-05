@@ -206,6 +206,19 @@
 ](https://leetcode.cn/problems/maximum-binary-tree-ii/
 )
 
+### 652. 寻找重复的子树
+
+<details>
+<summary>Tips</summary>
+
+1. 后序遍历
+2. 序列化这棵树使用 s=val(leftVal)(rightVal)的方式
+3. 然后用1个map记录出现过的
+
+</details>
+
+[https://leetcode.cn/problems/find-duplicate-subtrees/](https://leetcode.cn/problems/find-duplicate-subtrees/)
+
 ## 3. Hard
 
 ### 297. 二叉树的序列化与反序列化
