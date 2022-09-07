@@ -167,8 +167,8 @@
 2. 然后每次填充2个元素,一个是i,另一个是i+n:
 
 ```java
-    ans [i*2]=nums [i];
-        ans [i*2+1]=nums [i+n];
+    ans[i*2]=nums[i];
+        ans[i*2+1]=nums[i+n];
    ```
 
 </details>
@@ -200,6 +200,17 @@
 
 [https://leetcode.cn/problems/special-positions-in-a-binary-matrix/
 ](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/)
+
+### 1592. 重新排列单词间的空格
+
+<details>
+<summary>Tips</summary>
+
+1. 分别统计非空格和空格然后按照`spaceCount/(normalCount - 1)`拼接即可
+
+</details>
+
+[https://leetcode.cn/problems/rearrange-spaces-between-words/](https://leetcode.cn/problems/rearrange-spaces-between-words/)
 
 ## 2.Medium
 
