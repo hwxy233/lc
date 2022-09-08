@@ -276,7 +276,7 @@
 
 [https://leetcode.cn/problems/k-diff-pairs-in-an-array/](https://leetcode.cn/problems/k-diff-pairs-in-an-array/)
 
-324. 摆动排序 II
+### 324. 摆动排序 II
 
 <details>
 <summary>Tips</summary>
@@ -328,3 +328,15 @@
 </details>
 
 [https://leetcode.cn/problems/find-k-closest-elements/](https://leetcode.cn/problems/find-k-closest-elements/)
+
+### 667. 优美的排列 II
+
+<details>
+<summary>Tips</summary>
+
+1. 直接最小,最大,次小,次大...这样排列直到index==k因为这时恰好有了k-1种不同
+2. 剩下的不同就用1来填补,看下是顺着填充还是逆着填充即可
+
+</details>
+
+[https://leetcode.cn/problems/beautiful-arrangement-ii/](https://leetcode.cn/problems/beautiful-arrangement-ii/)
