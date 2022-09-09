@@ -212,6 +212,18 @@
 
 [https://leetcode.cn/problems/rearrange-spaces-between-words/](https://leetcode.cn/problems/rearrange-spaces-between-words/)
 
+### 1598. 文件夹操作日志搜集器
+
+<details>
+<summary>Tips</summary>
+
+1. 用个int值记录即可
+2. 注意最小为0不能再减小了
+
+</details>
+
+[https://leetcode.cn/problems/crawler-log-folder/](https://leetcode.cn/problems/crawler-log-folder/)
+
 ## 2.Medium
 
 ### 442. 数组中重复的数据
