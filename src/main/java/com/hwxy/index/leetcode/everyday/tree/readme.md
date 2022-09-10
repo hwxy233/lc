@@ -219,6 +219,24 @@
 
 [https://leetcode.cn/problems/find-duplicate-subtrees/](https://leetcode.cn/problems/find-duplicate-subtrees/)
 
+### 669. 修剪二叉搜索树
+
+<details>
+
+<summary>Tips</summary>
+
+因为是BST所以有左 < root < 右 的性质,所以可以检查root.val然后分情况讨论,先序遍历
+
+1. root.val > high,说明root以及right都要舍弃
+2. root.val < low,说明root以及left都要舍弃
+3. root.val在区间,这是分别dfs左和右作为root的左和右,然后返回root
+
+</details>
+
+[https://leetcode.cn/problems/trim-a-binary-search-tree/
+](https://leetcode.cn/problems/trim-a-binary-search-tree/
+)
+
 ## 3. Hard
 
 ### 297. 二叉树的序列化与反序列化
