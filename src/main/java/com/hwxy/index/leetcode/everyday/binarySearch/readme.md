@@ -1,5 +1,19 @@
 # BinarySearch
 
+## 1. Easy
+
+### 1608. 特殊数组的特征值
+
+<details>
+<summary>Tips</summary>
+
+1. 蓝红二分查找
+2. blue:nums[mid]<x
+
+</details>
+
+[https://leetcode.cn/problems/special-array-with-x-elements-greater-than-or-equal-x/](https://leetcode.cn/problems/special-array-with-x-elements-greater-than-or-equal-x/)
+
 ## 2. Medium
 
 ### 34. 在排序数组中查找元素的第一个和最后一个位置
