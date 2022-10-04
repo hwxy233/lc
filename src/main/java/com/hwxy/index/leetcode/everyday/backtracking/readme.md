@@ -1,3 +1,13 @@
+<!-- TOC -->
+
+* [BackTracing](#backtracing)
+    * [1. Easy](#1-easy)
+        * [812. 最大三角形面积](#812-)
+    * [2. Medium](#2-medium)
+        * [464. 我能赢吗](#464-)
+
+<!-- TOC -->
+
 # BackTracing
 
 ## 1. Easy
@@ -27,3 +37,17 @@
 </details>
 
 [https://leetcode.cn/problems/can-i-win/](https://leetcode.cn/problems/can-i-win/)
+
+### 698. 划分为k个相等的子集
+
+<details>
+<summary>Tips</summary>
+
+1. 注意到排序
+2. 提前计算出可能分配的组数和平均值作为每组的和
+3. 使用一个curSum记录当前的和
+4. 使用一个curCnt记录达到sun时的数量,每次回溯时只要这个值等于了cnt就说明可以找到
+
+</details>
+
+[https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/)

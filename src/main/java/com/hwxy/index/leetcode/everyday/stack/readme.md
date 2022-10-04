@@ -1,3 +1,15 @@
+<!-- TOC -->
+
+* [Stack](#stack)
+    * [1. Easy](#1-easy)
+        * [1021. 删除最外层的括号](#1021-)
+    * [2. Medium](#2-medium)
+        * [735. 行星碰撞](#735-)
+        * [636. 函数的独占时间](#636-)
+        * [946. 验证栈序列](#946-)
+
+<!-- TOC -->
+
 # Stack
 
 ## 1. Easy
@@ -58,3 +70,15 @@
 </details>
 
 [https://leetcode.cn/problems/validate-stack-sequences/](https://leetcode.cn/problems/validate-stack-sequences/)
+
+### 921. 使括号有效的最少添加
+
+<details>
+<summary>Tips</summary>
+
+1. 使用Stack
+2. 必须左右匹配才行
+
+</details>
+
+[https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid/](https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid/)

@@ -1,3 +1,15 @@
+<!-- TOC -->
+
+* [Queue](#queue)
+    * [1. Easy](#1-easy)
+        * [933. 最近的请求次数](#933-)
+    * [2. Medium](#2-medium)
+        * [622. 设计循环队列](#622-)
+        * [641. 设计循环双端队列](#641-)
+        * [面试题 17.09. 第 k 个数](#-1709--k-)
+
+<!-- TOC -->
+
 # Queue
 
 ## 1. Easy
@@ -43,3 +55,15 @@
 </details>
 
 [https://leetcode.cn/problems/design-circular-deque/](https://leetcode.cn/problems/design-circular-deque/)
+
+### 面试题 17.09. 第 k 个数
+
+<details>
+<summary>Tips</summary>
+
+1. 优先级队列,每次选最小的进行乘3,5,7
+2. 注意要用`long`
+
+</details>
+
+[https://leetcode.cn/problems/get-kth-magic-number-lcci/](https://leetcode.cn/problems/get-kth-magic-number-lcci/)

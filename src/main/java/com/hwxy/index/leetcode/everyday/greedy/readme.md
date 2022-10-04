@@ -1,3 +1,15 @@
+<!-- TOC -->
+
+* [Greedy](#greedy)
+    * [1.Easy](#1easy)
+        * [942. 增减字符串匹配](#942-)
+        * [1403. 非递增顺序的最小子序列](#1403-)
+        * [646. 最长数对链](#646-)
+    * [3. Hard](#3-hard)
+        * [871. 最低加油次数](#871-)
+
+<!-- TOC -->
+
 # Greedy
 
 ## 1.Easy
@@ -40,9 +52,21 @@
 
 </details>
 
-[https://leetcode.cn/problems/maximum-length-of-pair-chain/
-](https://leetcode.cn/problems/maximum-length-of-pair-chain/
-)
+[https://leetcode.cn/problems/maximum-length-of-pair-chain/](https://leetcode.cn/problems/maximum-length-of-pair-chain/)
+
+## 2.Medium
+
+### 670. 最大交换
+
+<details>
+<summary>Tips</summary>
+
+1. 贪心
+2. 每个数字不应该<后面的数字,否则与后面最大的交换
+
+</details>
+
+[https://leetcode.cn/problems/maximum-swap/](https://leetcode.cn/problems/maximum-swap/)
 
 ## 3. Hard
 

@@ -1,3 +1,40 @@
+<!-- TOC -->
+
+* [ArraysAndHashing](#arraysandhashing)
+    * [1. Easy](#1-easy)
+        * [944. 删列造序](#944-)
+        * [961. 在长度 2N 的数组中找出重复 N 次的元素](#961--2n--n-)
+        * [953. 验证外星语词典](#953-)
+        * [929. 独特的电子邮件地址](#929-)
+        * [1200. 最小绝对差](#1200-)
+        * [1260. 二维网格迁移](#1260-)
+        * [1331. 数组序号转换](#1331-)
+        * [1282. 用户分组](#1282-)
+        * [1413. 逐步求和得到正数的最小值](#1413-)
+        * [1450. 在既定时间做作业的学生人数](#1450-)
+        * [1460. 通过翻转子数组使两个数组相等](#1460-)
+        * [1464. 数组中两元素的最大乘积](#1464-)
+        * [1656. 设计有序流](#1656-)
+        * [1470. 重新排列数组](#1470-)
+        * [1475. 商品折扣后的最终价格](#1475-)
+        * [1582. 二进制矩阵中的特殊位置](#1582-)
+        * [1592. 重新排列单词间的空格](#1592-)
+        * [1598. 文件夹操作日志搜集器](#1598-)
+    * [2.Medium](#2medium)
+        * [442. 数组中重复的数据](#442-)
+        * [6064. 不含特殊楼层的最大连续楼层数](#6064-)
+        * [面试题 01.05. 一次编辑](#-0105-)
+        * [890. 查找和替换模式](#890-)
+        * [532. 数组中的 k-diff 数对](#532--k-diff-)
+        * [324. 摆动排序 II](#324--ii)
+        * [31. 下一个排列](#31-)
+        * [556. 下一个更大元素 III](#556--iii)
+        * [658. 找到 K 个最接近的元素](#658--k-)
+        * [667. 优美的排列 II](#667--ii)
+        * [面试题 01.08. 零矩阵](#-0108-)
+
+<!-- TOC -->
+
 # ArraysAndHashing
 
 ## 1. Easy
@@ -164,11 +201,11 @@
 <summary>Tips</summary>
 
 1. 新建一个数组
-2. 然后每次填充2个元素,一个是i,另一个是i+n:
+2. 然后每次填充2个元素,一个是`i`,另一个是`i + n`:
 
-```java
-    ans[i*2]=nums[i];
-        ans[i*2+1]=nums[i+n];
+```
+ans[i * 2] = nums[i];
+ans[i * 2 + 1] = nums[i + n];
    ```
 
 </details>
@@ -223,6 +260,28 @@
 </details>
 
 [https://leetcode.cn/problems/crawler-log-folder/](https://leetcode.cn/problems/crawler-log-folder/)
+
+### 1636. 按照频率将数组升序排序
+
+<details>
+<summary>Tips</summary>
+
+1. 按照要求写个排序器即可
+
+</details>
+
+[https://leetcode.cn/problems/sort-array-by-increasing-frequency/](https://leetcode.cn/problems/sort-array-by-increasing-frequency/)
+
+### 1652. 拆炸弹
+
+<details>
+<summary>Tips</summary>
+
+1. 注意求模
+
+</details>
+
+[https://leetcode.cn/problems/defuse-the-bomb/](https://leetcode.cn/problems/defuse-the-bomb/)
 
 ## 2.Medium
 
@@ -296,7 +355,7 @@
 1. 拷贝一个新数组后排序
 2. left指向中间如果长度是奇数则指向中间后一个位置,right从长度-1开始
 3. 先放left--,然后放right--
-4. 最后如果是奇数,将最后的位置赋值成排序后的0元素
+4. 最后如果是奇数,将最后的位置赋值成排序后的`0`元素
 
 </details>
 
@@ -352,3 +411,29 @@
 </details>
 
 [https://leetcode.cn/problems/beautiful-arrangement-ii/](https://leetcode.cn/problems/beautiful-arrangement-ii/)
+
+### 面试题 01.08. 零矩阵
+
+<details>
+<summary>Tips</summary>
+
+1. 统计有0的行
+2. 统计有0的列
+3. 然后分别将行和列设为0
+
+</details>
+
+
+[https://leetcode.cn/problems/zero-matrix-lcci/](https://leetcode.cn/problems/zero-matrix-lcci/)
+
+### 788. 旋转数字
+
+<details>
+<summary>Tips</summary>
+
+1. 直接遍历即可
+
+</details>
+
+
+[https://leetcode.cn/problems/rotated-digits/](https://leetcode.cn/problems/rotated-digits/)
