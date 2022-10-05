@@ -20,6 +20,8 @@
         * [1582. 二进制矩阵中的特殊位置](#1582-)
         * [1592. 重新排列单词间的空格](#1592-)
         * [1598. 文件夹操作日志搜集器](#1598-)
+        * [1636. 按照频率将数组升序排序](#1636-)
+        * [1652. 拆炸弹](#1652-)
     * [2.Medium](#2medium)
         * [442. 数组中重复的数据](#442-)
         * [6064. 不含特殊楼层的最大连续楼层数](#6064-)
@@ -32,6 +34,8 @@
         * [658. 找到 K 个最接近的元素](#658--k-)
         * [667. 优美的排列 II](#667--ii)
         * [面试题 01.08. 零矩阵](#-0108-)
+        * [788. 旋转数字](#788-)
+        * [811. 子域名访问计数](#811-)
 
 <!-- TOC -->
 
@@ -437,3 +441,15 @@ ans[i * 2 + 1] = nums[i + n];
 
 
 [https://leetcode.cn/problems/rotated-digits/](https://leetcode.cn/problems/rotated-digits/)
+
+### 811. 子域名访问计数
+
+<details>
+<summary>Tips</summary>
+
+1. hash统计即可
+
+</details>
+
+
+[https://leetcode.cn/problems/subdomain-visit-count/](https://leetcode.cn/problems/subdomain-visit-count/)
