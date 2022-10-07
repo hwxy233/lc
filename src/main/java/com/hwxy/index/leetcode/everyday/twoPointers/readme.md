@@ -7,6 +7,7 @@
     * [2. Medium](#2-medium)
         * [面试题 01.05. 一次编辑](#-0105-)
         * [面试题 17.11. 单词距离](#-1711-)
+        * [777. 在LR字符串中交换相邻字符](#777-lr)
 
 <!-- TOC -->
 
@@ -38,6 +39,17 @@
 </details>
 
 [https://leetcode.cn/problems/duplicate-zeros/](https://leetcode.cn/problems/duplicate-zeros/)
+
+### 1800. 最大升序子数组和
+
+<details>
+<summary>Tips</summary>
+
+1. 用一个指针其实就行
+
+</details>
+
+[https://leetcode.cn/problems/maximum-ascending-subarray-sum/](https://leetcode.cn/problems/maximum-ascending-subarray-sum/)
 
 ## 2. Medium
 
