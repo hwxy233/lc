@@ -1,3 +1,21 @@
+<!-- TOC -->
+
+* [BinarySearch](#binarysearch)
+    * [1. Easy](#1-easy)
+        * [1608. 特殊数组的特征值](#1608-)
+    * [2. Medium](#2-medium)
+        * [34. 在排序数组中查找元素的第一个和最后一个位置](#34-)
+        * [378. 有序矩阵中第 K 小的元素](#378--k-)
+        * [436. 寻找右区间](#436-)
+        * [875. 爱吃香蕉的珂珂](#875-)
+        * [2226. 每个小孩最多能分到多少糖果](#2226-)
+        * [497. 非重叠矩形中的随机点](#497-)
+    * [3. Hard](#3-hard)
+        * [668. 乘法表中第k小的数](#668-k)
+        * [719. 找出第 K 小的数对距离](#719--k-)
+
+<!-- TOC -->
+
 # BinarySearch
 
 ## 1. Easy
@@ -93,6 +111,18 @@
 
 
 [https://leetcode.cn/problems/random-point-in-non-overlapping-rectangles/](https://leetcode.cn/problems/random-point-in-non-overlapping-rectangles/)
+
+### 870. 优势洗牌
+
+<details>
+<summary>Tips</summary>
+
+1. 二分,其实可以直接用TreeMap的highKey方法
+
+</details>
+
+
+[https://leetcode.cn/problems/advantage-shuffle/](https://leetcode.cn/problems/advantage-shuffle/)
 
 ## 3. Hard
 
