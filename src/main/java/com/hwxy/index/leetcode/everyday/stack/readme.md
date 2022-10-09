@@ -7,6 +7,7 @@
         * [735. 行星碰撞](#735-)
         * [636. 函数的独占时间](#636-)
         * [946. 验证栈序列](#946-)
+        * [921. 使括号有效的最少添加](#921-)
 
 <!-- TOC -->
 
@@ -82,3 +83,15 @@
 </details>
 
 [https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid/](https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid/)
+
+### 856. 括号的分数
+
+<details>
+<summary>Tips</summary>
+
+1. 避免上层没有数据的情况
+2. 如果当前层是0则说明只要给前一层+1即可,否则要*2
+
+</details>
+
+[https://leetcode.cn/problems/score-of-parentheses/](https://leetcode.cn/problems/score-of-parentheses/)
