@@ -1,3 +1,13 @@
+<!-- TOC -->
+
+* [LinkedList](#linkedlist)
+    * [2. Medium](#2-medium)
+        * [剑指 Offer II 029. 排序的循环链表](#-offer-ii-029-)
+    * [3. Hard](#3-hard)
+        * [1206. 设计跳表](#1206-)
+
+<!-- TOC -->
+
 # LinkedList
 
 ## 2. Medium
@@ -14,6 +24,19 @@
 </details>
 
 [https://leetcode.cn/problems/4ueAj6/](https://leetcode.cn/problems/4ueAj6/)
+
+### 817. 链表组件
+
+<details>
+<summary>Tips</summary>
+
+1. 用一个Set存nums
+2. 遍历head,只要Set里有head.val就在while里next
+3. while结束后ans++
+
+</details>
+
+https://leetcode.cn/problems/linked-list-components/
 
 ## 3. Hard
 

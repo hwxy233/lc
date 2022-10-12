@@ -1,15 +1,15 @@
 <!-- TOC -->
+'* [String](#string)
 
-* [String](#string)
-    * [1. Easy](#1-easy)
-        * [1108. IP 地址无效化](#1108-ip-)
-        * [1374. 生成每种字符都是奇数个的字符串](#1374-)
-        * [1408. 数组中的字符串匹配](#1408-)
-        * [面试题 01.02. 判定是否互为字符重排](#-0102-)
-        * [面试题 01.09. 字符串轮转](#-0109-)
-        * [1624. 两个相同字符之间的最长子字符串](#1624-)
-        * [1694. 重新格式化电话号码](#1694-)
-        * [1784. 检查二进制字符串字段](#1784-)
+* [1. Easy](#1-easy)
+    * [1108. IP 地址无效化](#1108-ip-)
+    * [1374. 生成每种字符都是奇数个的字符串](#1374-)
+    * [1408. 数组中的字符串匹配](#1408-)
+    * [面试题 01.02. 判定是否互为字符重排](#-0102-)
+    * [面试题 01.09. 字符串轮转](#-0109-)
+    * [1624. 两个相同字符之间的最长子字符串](#1624-)
+    * [1694. 重新格式化电话号码](#1694-)
+    * [1784. 检查二进制字符串字段](#1784-)
 
 <!-- TOC -->
 
@@ -108,3 +108,15 @@
 </details>
 
 [https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
+
+### 1790. 仅执行一次字符串交换能否使两个字符串相等
+
+<details>
+<summary>Tips</summary>
+
+1. 记录下不同位置的char
+2. 第二次不同时必须要互相一样`s1c == s2cs[i] && s2c == s1cs[i]`
+
+</details>
+
+[https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal/](https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal/)
