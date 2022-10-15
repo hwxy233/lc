@@ -1,3 +1,18 @@
+<!-- TOC -->
+
+* [DP](#dp)
+    * [2. Medium](#2-medium)
+        * [467. 环绕字符串中唯一的子字符串](#467-)
+        * [926. 将字符串翻转到单调递增](#926-)
+        * [剑指 Offer II 091. 粉刷房子](#-offer-ii-091-)
+        * [522. 最长特殊序列 II](#522--ii)
+        * [1143. 最长公共子序列](#1143-)
+        * [873. 最长的斐波那契子序列的长度](#873-)
+    * [3. Hard](#3-hard)
+        * [730. 统计不同回文子序列](#730-)
+
+<!-- TOC -->
+
 # DP
 
 ## 2. Medium
@@ -107,3 +122,17 @@
 
 
 [https://leetcode.cn/problems/count-different-palindromic-subsequences/submissions/](https://leetcode.cn/problems/count-different-palindromic-subsequences/submissions/)
+
+### 940. 不同的子序列 II
+
+<details>
+<summary>Tips</summary>
+
+1. f[i][j]为前i长度以j字符结尾的长度
+2. 如果当前位置的字符和j不相同,也就是不以j结尾,那么f[i][j] = f[i-1][j]
+3. 如果当前位置的字符和j相同,也就是以j结尾,那么f[i][j] = 所有的f[i-1][j]和+1
+4. 答案就是前n长度的全部字符情况的和
+
+</details>
+
+[https://leetcode.cn/problems/distinct-subsequences-ii/](https://leetcode.cn/problems/distinct-subsequences-ii/)

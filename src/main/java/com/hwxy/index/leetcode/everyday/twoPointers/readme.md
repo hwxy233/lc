@@ -4,6 +4,7 @@
     * [1.Easy](#1easy)
         * [5234. 移除字母异位词后的结果数组](#5234-)
         * [1089. 复写零](#1089-)
+        * [1800. 最大升序子数组和](#1800-)
     * [2. Medium](#2-medium)
         * [面试题 01.05. 一次编辑](#-0105-)
         * [面试题 17.11. 单词距离](#-1711-)
@@ -90,3 +91,16 @@
 </details>
 
 [https://leetcode.cn/problems/swap-adjacent-in-lr-string/](https://leetcode.cn/problems/swap-adjacent-in-lr-string/)
+
+### 1441. 用栈操作构建数组
+
+<details>
+<summary>Tips</summary>
+
+1. j用来遍历target,i用来遍历n
+2. 如果不是当前的target就先PUSH再POP
+3. 否则直接PUSH
+
+</details>
+
+[https://leetcode.cn/problems/build-an-array-with-stack-operations/](https://leetcode.cn/problems/build-an-array-with-stack-operations/)

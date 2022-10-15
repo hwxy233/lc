@@ -5,6 +5,8 @@
         * [942. 增减字符串匹配](#942-)
         * [1403. 非递增顺序的最小子序列](#1403-)
         * [646. 最长数对链](#646-)
+    * [2.Medium](#2medium)
+        * [670. 最大交换](#670-)
     * [3. Hard](#3-hard)
         * [871. 最低加油次数](#871-)
 
@@ -67,6 +69,18 @@
 </details>
 
 [https://leetcode.cn/problems/maximum-swap/](https://leetcode.cn/problems/maximum-swap/)
+
+### 769. 最多能完成排序的块
+
+<details>
+<summary>Tips</summary>
+
+1. 贪心
+2. 每次找最大值,只有当最大值为当前下标时说明前面的可以是一组
+
+</details>
+
+[https://leetcode.cn/problems/max-chunks-to-make-sorted/](https://leetcode.cn/problems/max-chunks-to-make-sorted/)
 
 ## 3. Hard
 
