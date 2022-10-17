@@ -1,3 +1,15 @@
+<!-- TOC -->
+
+* [滑动窗口](#)
+    * [2. Medium](#2-medium)
+        * [713. 乘积小于 K 的子数组](#713--k-)
+        * [438. 找到字符串中所有字母异位词](#438-)
+        * [剑指 Offer II 041. 滑动窗口的平均值](#-offer-ii-041-)
+    * [3. Hard](#3-hard)
+        * [76. 最小覆盖子串](#76-)
+
+<!-- TOC -->
+
 # 滑动窗口
 
 模板:[https://leetcode.cn/problems/find-all-anagrams-in-a-string/solution/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/](https://leetcode.cn/problems/find-all-anagrams-in-a-string/solution/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/)
@@ -39,9 +51,22 @@
 
 [https://leetcode.cn/problems/qIsx9U/](https://leetcode.cn/problems/qIsx9U/)
 
+### 904. 水果成篮
+
+<details>
+<summary>Tips</summary>
+
+1. 使用map作为窗口记录出现次数
+2. 只要出现第三种数字就滑动直到2种
+3. 只要cnt=0了就移出
+
+</details>
+
+[https://leetcode.cn/problems/fruit-into-baskets/](https://leetcode.cn/problems/fruit-into-baskets/)
+
 ## 3. Hard
 
-## 76. 最小覆盖子串
+### 76. 最小覆盖子串
 
 <details>
 <summary>Tips</summary>
