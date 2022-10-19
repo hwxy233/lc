@@ -287,6 +287,18 @@ ans[i * 2 + 1] = nums[i + n];
 
 [https://leetcode.cn/problems/defuse-the-bomb/](https://leetcode.cn/problems/defuse-the-bomb/)
 
+### 1700. 无法吃午餐的学生数量
+
+<details>
+<summary>Tips</summary>
+
+1. 分别统计数量,遍历三明治直到一种类型为0,break
+2. 返回2种剩余的和
+
+</details>
+
+[https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/)
+
 ## 2.Medium
 
 ### 442. 数组中重复的数据
