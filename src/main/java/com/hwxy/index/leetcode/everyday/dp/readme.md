@@ -10,6 +10,7 @@
         * [873. 最长的斐波那契子序列的长度](#873-)
     * [3. Hard](#3-hard)
         * [730. 统计不同回文子序列](#730-)
+        * [940. 不同的子序列 II](#940--ii)
 
 <!-- TOC -->
 
@@ -103,6 +104,20 @@
 
 
 [https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence/](https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence/)
+
+### 901. 股票价格跨度
+
+<details>
+<summary>Tips</summary>
+
+1. dp[i]=前面所有小于dp[i]的和
+2. 注意每次减去下标的step为dp的值
+3. 也可以是用单调栈
+
+</details>
+
+
+[https://leetcode.cn/problems/online-stock-span/](https://leetcode.cn/problems/online-stock-span/)
 
 ## 3. Hard
 
